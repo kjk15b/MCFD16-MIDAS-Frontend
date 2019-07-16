@@ -21,10 +21,10 @@
 #include "midas.h"
 
 
-#define SP_8 1 // COMMON -> sets polarity to negative
-#define SG_8 1 // COMMON -> sets gain commonly to 1
+//#define SP_8 1 // COMMON -> sets polarity to negative
+//#define SG_8 1 // COMMON -> sets gain commonly to 1
 
-#define DEFAULT_TIMEOUT 500     // milliseconds
+#define DEFAULT_TIMEOUT 1000     // milliseconds
 
 
 #define DD_MCFD_SETTINGS_STR "\
@@ -48,6 +48,42 @@ St12 = INT : 0\n\
 St13 = INT : 0\n\
 St14 = INT : 0\n\
 St15 = INT : 0\n\
+Sw0 = INT : 222\n\
+Sw1 = INT : 222\n\
+Sw2 = INT : 222\n\
+Sw3 = INT : 222\n\
+Sw4 = INT : 222\n\
+Sw5 = INT : 222\n\
+Sw6 = INT : 222\n\
+Sw7 = INT : 222\n\
+Sd8 = INT : 27\n\
+Sy8 = INT : 1\n\
+Sf8 = INT : 40\n\
+Sk = INT : 0\n\
+Sc = INT : 36\n\
+Tr0 = INT : 1\n\
+Tr1 = INT : 4\n\
+Tr2 = INT : 6\n\
+SmL = INT : 1\n\
+SmU = INT : 5\n\
+Pa0 = INT : 255\n\
+Pa1 = INT : 255\n\
+Pa2 = INT : 255\n\
+Pa3 = INT : 255\n\
+Pa4 = INT : 255\n\
+Pa5 = INT : 255\n\
+Pa6 = INT : 255\n\
+Pa7 = INT : 255\n\
+Pa8 = INT : 255\n\
+Pa9 = INT : 255\n\
+Pa10 = INT : 255\n\
+Pa11 = INT : 255\n\
+Pa12 = INT : 255\n\
+Pa13 = INT : 255\n\
+Pa14 = INT : 255\n\
+Pa15 = INT : 255\n\
+Ps = INT : 0\n\
+Mx = STRING : "MC"\n\
 Read Period ms = FLOAT : 200\n\
 "
 
@@ -89,6 +125,8 @@ typedef struct {
   int Tr0; // trigger source (front)
   int Tr1; // rear 1
   int Tr2; // rear 2
+  int SmL; // multiplicity lower
+  int SmU; // multiplicity upper
   int Pa1; // coincidence pairing
   int Pa2;
   int Pa3;
@@ -123,54 +161,92 @@ typedef struct {
   HNDLE hkey;                  // ODB key for bus driver info
 
 
-  float set_point;
-  float process_value;
-  float controlled_output;
+  float chn0;
+  float chn1;
+  float chn2;
+  float chn3;
+  float chn4;
+  float chn5;
+  float chn6;
+  float chn7;
+  float chn8;
+  float chn9;
+  float chn10;
+  float chn11;
+  float chn12;
+  float chn13;
+  float chn14;
+  float chn15;
+  float tr0; // trigger 0
+  float tr1; // 1
+  float tr2; // 2
+  float tr_total; // total output
   
   float *array;                // Most recent measurement or NaN, one for each channel
   DWORD *update_time;          // seconds
 
   INT get_label_calls;
 
-} DD_FAN_PID_INFO;
+} DD_MCFD_INFO;
 
 
 // Should probably call this every time the fe is started.  This would log PID parameters to the midas.log so they can be recovered later...
 //int recall_pid_settings(bool saveToODB=false); // read from Arduino, print to messages/stdout, optionally save to ODB
 
 
-int pid_apply_settings(DD_FAN_PID_INFO * info) {
+int mcfd_apply_settings(DD_MCFD_INFO * info) {
   char cmd[256];
   char str[256];
   memset(cmd, 0, sizeof(cmd));
 
   //printf("Set channel %d to %.2f\n", channel, value);
   
-  if (!ss_isnan(info->set_point)) {
-    snprintf(cmd, sizeof(cmd)-1, "s%.2f\n", info->set_point);
-    BD_PUTS(cmd);
-    BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
-  //printf("Setpoint to %.2f\n", value);
-  } else {
-    printf("Invalid set point (%f) will not be applied.\n", info->set_point);
-  }
   
-  snprintf(cmd, sizeof(cmd)-1, "p%.2f\n", info->settings.kP);
+  snprintf(cmd, sizeof(cmd)-1, "sp %d\n", info->settings.Sp); // set polarity
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
-  snprintf(cmd, sizeof(cmd)-1, "i%.2f\n", info->settings.kI);
+  
+  snprintf(cmd, sizeof(cmd)-1, "sg %d\n", info->settings.Sg); // set gain
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
-  snprintf(cmd, sizeof(cmd)-1, "d%.2f\n", info->settings.kD);
+  
+  snprintf(cmd, sizeof(cmd)-1, "bwl %d\n", info->settings.BWL); // set bandwidth limit
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
-  snprintf(cmd, sizeof(cmd)-1, "m%.2f\n", info->settings.out_Min);
+  
+  snprintf(cmd, sizeof(cmd)-1, "cfd %d\n", info->settings.CFD); // set CFD mode
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
-  snprintf(cmd, sizeof(cmd)-1, "M%.2f\n", info->settings.out_Max);
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 0 %d\n", info->settings.St0); // set polarity
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
-  snprintf(cmd, sizeof(cmd)-1, "t%.2f\n", info->settings.readPeriod_ms);
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 1 %d\n", info->settings.St1); // set polarity
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 2 %d\n", info->settings.St2); // set polarity
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 3 %d\n", info->settings.St3); // set polarity
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 4 %d\n", info->settings.St4); // set polarity
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 5 %d\n", info->settings.St5); // set polarity
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 6 %d\n", info->settings.St6); // set polarity
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "sp 7 %d\n", info->settings.St7); // set polarity
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
 
