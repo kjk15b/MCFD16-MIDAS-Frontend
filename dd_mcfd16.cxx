@@ -225,7 +225,7 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   info->hkey = hkey;
   
   for (int i=; i<NINETEEN_CHANNELS; i++) { // TODO: obviously change this to be back to channels, just making notes for the meantime...
-    info->channel_frequency[i] = ss_nan(); // initialize the channel readouts
+    info->channel_frequency[i] = ss_nan(); // initialize the channel readouts to nan
     info->array[i] = ss_nan();
     info->update_time[i] = 0;
   }
@@ -233,10 +233,9 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   info->get_label_calls=0;
   
   
-  
 
   // DD Settings
-  status = db_create_record(hDB, hkey, "DD", DD_MCFD_SETTINGS_STR);
+  status = db_create_record(hDB, hkey, "DD", DD_MCFD_SETTINGS_STR); // TODO: copy this over to also initialize the settings for the chn_settings
   if (status != DB_SUCCESS)
      return FE_ERR_ODB;
 
@@ -259,21 +258,21 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   status = info->bd(CMD_INIT, info->hkey, &info->bd_info);
   if (status != SUCCESS) return status;
   
-  printf("Sending initialization commands to Arduino PID controller\n");
+  printf("Sending initialization commands to MCFD16\n");
   
 
   char str[256];
   memset(str, 0, sizeof(str));
   int len=0;
-  // TODO: Check to see if Arduino is outputing data
+  // TODO: Check to see if MCFD16 is outputing data
   // TODO: may need to read a lot of old buffered data...
-  BD_PUTS("g\n"); // "get" measurement, also disables automatic printout as of PIDVer2_1
+  BD_PUTS("ra 0\r\n"); // "get" measurement
   int tries=0;
   for (tries=0; tries<500; ++tries) {
-    int len = BD_GETS(str, sizeof(str)-1, "\r\n", 2);
+    int len = BD_GETS(str, sizeof(str)-1, "\n", 2); // will have to format this for MCFD
     if (len==0 && tries > 4) break;
   }
-  //printf("read tries=%d, len=%d, str=``%s''\n", tries, len, str);
+  printf("read tries=%d, len=%d, str=``%s''\n", tries, len, str); // debugging
   if (len == 0) {
   }
 
