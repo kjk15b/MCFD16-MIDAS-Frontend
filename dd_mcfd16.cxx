@@ -49,16 +49,6 @@ Read Period ms = FLOAT : 200\n\
 "
 
 typedef struct {
-  int BWL; // Bandwidth limit
-  int CFD; // turn on CFD
-  int Sk; // set mask for registers pairings
-  int Sc; // global coincidence time
-  int Sv; // fast veto input
-  int Gs; // gate selector
-  int Ga1; // Gate allowed timing, hard coding to falling edge right now b/c  of our equipment
-  int Ps; // test pulser status
-  int readPeriod_ms; // maybe need?
-  
   int* set_polarity; // pair
   int* set_gain; // pair
   int* set_threshold; // individual
@@ -71,6 +61,18 @@ typedef struct {
   int* trigger_pattern; // 4 values
   int* set_multiplicity; // Upper & lower
   int* paired_coincidence; // 1->15
+} MCFD_CHANNEL_SETTINGS;
+
+typedef struct {
+  int BWL; // Bandwidth limit
+  int CFD; // turn on CFD
+  int Sk; // set mask for registers pairings
+  int Sc; // global coincidence time
+  int Sv; // fast veto input
+  int Gs; // gate selector
+  int Ga1; // Gate allowed timing, hard coding to falling edge right now b/c  of our equipment
+  int Ps; // test pulser status
+  int readPeriod_ms; // maybe need?
   
 //   bool manual_control; // maybe...
 } DD_MCFD_SETTINGS;
@@ -78,6 +80,7 @@ typedef struct {
 
 typedef struct {
   DD_MCFD_SETTINGS settings;
+  MCFD_CHANNEL_SETTINGS chn_settings;
   DD_MCFD_SETTINGS settingsIncoming;
 
   INT num_channels;
@@ -137,14 +140,12 @@ int mcfd_apply_settings(DD_MCFD_INFO * info) {
 }
 
 
-void pid_settings_updated(INT hDB, INT hkey, void* vinfo)
+void mcfd_settings_updated(INT hDB, INT hkey, void* vinfo)
 {
   printf("Settings updated\n");
 
-  DD_FAN_PID_INFO* info = (DD_FAN_PID_INFO*) vinfo;
+  DD_MCFD_INFO* info = (DD_MCFD_INFO*) vinfo;
 
-//   printf("kP  %g\n", info->settings.kP);
-//   printf("kPi %g\n", info->settingsIncoming.kP);
   bool changed=false;
 
   
@@ -185,7 +186,7 @@ void pid_settings_updated(INT hDB, INT hkey, void* vinfo)
     changed=true;
   }
 
-  if (changed) pid_apply_settings(info); // TODO: only apply the changed ones...
+  if (changed) mcfd_apply_settings(info); // TODO: only apply the changed ones...
 }
 
 
@@ -206,24 +207,24 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   info->array = (float*) calloc(channels, sizeof(float));
   info->update_time = (DWORD*) calloc(channels, sizeof(DWORD));
   
-  info->set_polarity = (int*) calloc(channels, sizeof(int)); // TODO: these values need to be 2, 3, 4, 8, or 16 in width, not by channels
-  info->set_gain = (int*) calloc(channels, sizeof(int));
-  info->set_threshold = (int*) calloc(channels, sizeof(int));
-  info->set_width = (int*) calloc(channels, sizeof(int));
-  info->set_dead_time = (int*) calloc(channels, sizeof(int));
-  info->set_delay_line = (int*) calloc(channels, sizeof(int));
-  info->set_fraction = (int*) calloc(channels, sizeof(int));
-  info->trigger_source = (int*) calloc(channels, sizeof(int));
-  info->trigger_monitor = (int*) calloc(channels, sizeof(int));
-  info->trigger_pattern = (int*) calloc(channels, sizeof(int));
-  info->set_multiplicity = (int*) calloc(channels, sizeof(int));
-  info->paired_coincidence = (int*) calloc(channels, sizeof(int));
+  info->chn_settings.set_polarity = (int*) calloc(PAIRINGS, sizeof(int)); // TODO: these values need to be 2, 3, 4, 8, or 16 in width, not by channels
+  info->chn_settings.set_gain = (int*) calloc(PAIRINGS, sizeof(int));
+  info->chn_settings.set_threshold = (int*) calloc(CHANNELS, sizeof(int));
+  info->chn_settings.set_width = (int*) calloc(PAIRINGS, sizeof(int));
+  info->chn_settings.set_dead_time = (int*) calloc(PAIRINGS, sizeof(int));
+  info->chn_settings.set_delay_line = (int*) calloc(PAIRINGS, sizeof(int));
+  info->chn_settings.set_fraction = (int*) calloc(PAIRINGS, sizeof(int));
+  info->chn_settings.trigger_source = (int*) calloc(THREE_CHANNELS, sizeof(int));
+  info->chn_settings.trigger_monitor = (int*) calloc(TWO_CHANNELS, sizeof(int));
+  info->chn_settings.trigger_pattern = (int*) calloc(FOUR_CHANNELS, sizeof(int));
+  info->chn_settings.set_multiplicity = (int*) calloc(TWO_CHANNELS, sizeof(int));
+  info->chn_settings.paired_coincidence = (int*) calloc(CHANNELS, sizeof(int));
   
   info->num_channels = channels;  // TODO: make sure it is 19 channel readout
   info->bd = bd;
   info->hkey = hkey;
   
-  for (int i=; i<NINETEEN_CHANNELS; i++) {
+  for (int i=; i<NINETEEN_CHANNELS; i++) { // TODO: obviously change this to be back to channels, just making notes for the meantime...
     info->channel_frequency[i] = ss_nan(); // initialize the channel readouts
     info->array[i] = ss_nan();
     info->update_time[i] = 0;
