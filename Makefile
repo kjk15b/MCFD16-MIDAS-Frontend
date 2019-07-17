@@ -9,7 +9,7 @@ CXXFLAGS=$(CFLAGS)
 LDFLAGS=$(MIDASSYS)/linux/lib/mfe.o  -L$(MIDASSYS)/linux/lib -lmidas -lpthread -lutil -lrt -lz 
 
 
-all: feFanPID
+all: feMCFD
 
 rs232.o: $(MIDASSYS)/drivers/bus/rs232.cxx $(MIDASSYS)/drivers/bus/rs232.h
 	g++ -c $(CFLAGS) $(MIDASSYS)/drivers/bus/rs232.cxx

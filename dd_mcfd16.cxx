@@ -23,56 +23,148 @@
 #undef calloc
 
 
-//#define SP_8 1 // COMMON -> sets polarity to negative
-//#define SG_8 1 // COMMON -> sets gain commonly to 1
 
 #define DEFAULT_TIMEOUT 1000     // milliseconds
-#define CHANNELS 16
-#define PAIRINGS 8
-#define THREE_CHANNELS 3
-#define TWO_CHANNELS 2
-#define FOUR_CHANNELS 4
-#define NINETEEN_CHANNELS 19
 
 
 
 #define DD_MCFD_SETTINGS_STR "\
 BWL = INT : 1\n\
 CFD = INT : 1\n\
-Sk = INT : 0\n\
-Sc = INT : 36\n\
-Sv = INT : 0\n\
-Gs = INT : 0\n\
-Ga1 = INT : 255\n\
-Ps = INT : 0\n\
+set_mask = INT : 0\n\
+set_coincidence = INT : 36\n\
+set_veto = INT : 0\n\
+gate_selector = INT : 0\n\
+gate_timing = INT : 255\n\
+pulser = INT : 0\n\
 Read Period ms = FLOAT : 200\n\
+set_polarity = INT[8] :\n\
+[0] 1\n\
+[1] 1\n\
+[2] 1\n\
+[3] 1\n\
+[4] 1\n\
+[5] 1\n\
+[6] 1\n\
+[7] 1\n\
+set_gain = INT[8] :\n\
+[0] 1\n\
+[1] 1\n\
+[2] 1\n\
+[3] 1\n\
+[4] 1\n\
+[5] 1\n\
+[6] 1\n\
+[7] 1\n\
+set_threshold = INT[16] :\n\
+[0] 0\n\
+[1] 0\n\
+[2] 0\n\
+[3] 0\n\
+[4] 0\n\
+[5] 0\n\
+[6] 0\n\
+[7] 0\n\
+[8] 0\n\
+[9] 0\n\
+[10] 0\n\
+[11] 0\n\
+[12] 0\n\
+[13] 0\n\
+[14] 0\n\
+[15] 0\n\
+set_width = INT[8] :\n\
+[0] 16\n\
+[1] 16\n\
+[2] 16\n\
+[3] 16\n\
+[4] 16\n\
+[5] 16\n\
+[6] 16\n\
+[7] 16\n\
+set_dead_time = INT[8] :\n\
+[0] 27\n\
+[1] 27\n\
+[2] 27\n\
+[3] 27\n\
+[4] 27\n\
+[5] 27\n\
+[6] 27\n\
+[7] 27\n\
+set_delay_line = INT[8] :\n\
+[0] 1\n\
+[1] 1\n\
+[2] 1\n\
+[3] 1\n\
+[4] 1\n\
+[5] 1\n\
+[6] 1\n\
+[7] 1\n\
+set_fraction = INT[8] :\n\
+[0] 40\n\
+[1] 40\n\
+[2] 40\n\
+[3] 40\n\
+[4] 40\n\
+[5] 40\n\
+[6] 40\n\
+[7] 40\n\
+trigger_source = INT[3] :\n\
+[0] 1\n\
+[1] 1\n\
+[2] 1\n\
+trigger_monitor = INT[2] :\n\
+[0] 0\n\
+[1] 1\n\
+trigger_pattern = INT[2] :\n\
+[0] 0\n\
+[1] 255\n\
+set_multiplicity = INT[2] :\n\
+[0] 1\n\
+[1] 16\n\
+paired_coincidence = INT[16] :\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
+[0] 255\n\
 "
 
-typedef struct {
-  int* set_polarity; // pair
-  int* set_gain; // pair
-  int* set_threshold; // individual
-  int* set_width; // pair 
-  int* set_dead_time; // pair
-  int* set_delay_line; // pair
-  int* set_fraction; // pair
-  int* trigger_source; // 3 values
-  int* trigger_monitor; // 2 values
-  int* trigger_pattern; // 4 values
-  int* set_multiplicity; // Upper & lower
-  int* paired_coincidence; // 1->15
-} MCFD_CHANNEL_SETTINGS;
 
 typedef struct {
   int BWL; // Bandwidth limit
   int CFD; // turn on CFD
-  int Sk; // set mask for registers pairings
-  int Sc; // global coincidence time
-  int Sv; // fast veto input
-  int Gs; // gate selector
-  int Ga1; // Gate allowed timing, hard coding to falling edge right now b/c  of our equipment
-  int Ps; // test pulser status
+  int set_mask; // set mask for registers pairings
+  int set_coincidence; // global coincidence time
+  int set_veto; // fast veto input
+  int gate_selector; // gate selector
+  int gate_timing; // Gate allowed timing, hard coding to falling edge right now b/c  of our equipment
+  int pulser; // test pulser status
   int readPeriod_ms; // maybe need?
+  
+  int set_polarity[8]; // pair
+  int set_gain[8]; // pair
+  int set_threshold[16]; // individual
+  int set_width[8]; // pair 
+  int set_dead_time[8]; // pair
+  int set_delay_line[8]; // pair
+  int set_fraction[8]; // pair
+  int trigger_source[3]; // 3 values
+  int trigger_monitor[2]; // 2 values
+  int trigger_pattern[2]; // 2 values
+  int set_multiplicity[2]; // Upper & lower
+  int paired_coincidence[16]; // 1->15
   
 //   bool manual_control; // maybe...
 } DD_MCFD_SETTINGS;
@@ -80,7 +172,6 @@ typedef struct {
 
 typedef struct {
   DD_MCFD_SETTINGS settings;
-  MCFD_CHANNEL_SETTINGS chn_settings;
   DD_MCFD_SETTINGS settingsIncoming;
 
   INT num_channels;
@@ -89,7 +180,8 @@ typedef struct {
   HNDLE hkey;                  // ODB key for bus driver info
 
 
-  float* channel_frequency;
+  float *channel_frequency; // 0-15 standard channels 16-18 are trig0,1,2 and 19 is total 
+  
   
   float *array;                // Most recent measurement or NaN, one for each channel
   DWORD *update_time;          // seconds
@@ -103,20 +195,68 @@ typedef struct {
 //int recall_pid_settings(bool saveToODB=false); // read from Arduino, print to messages/stdout, optionally save to ODB
 
 
-int mcfd_apply_settings(DD_MCFD_INFO * info) {
-  
+int mcfd_apply_settings(DD_MCFD_INFO* info) {
+  /* Format of most commands to R / W from the MCFD:
+   * (char) + (int) + (opt. modifier) 
+   * Where char is the identifying register, int is the data write and optional modifier is for special cases...
+   */
   
   
   char cmd[256];
   char str[256];
   memset(cmd, 0, sizeof(cmd));
-  //printf("Set channel %d to %.2f\n", channel, value);
+  // want to write for loops to automate the r / w process...
   
-  snprintf(cmd, sizeof(cmd)-1, "sp 0 %d\r\n", info->settings.Sp0); // set polarity
+  for (int i=0; i<16; ++i) { // These are the only commands to write that are 16 wide...
+	snprintf(cmd, sizeof(cmd)-1, "st %d %d\r\n", i, info->settings.set_threshold[i]); // set threshold
+	BD_PUTS(cmd);
+	BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+
+	if (i < 3) {
+	  snprintf(cmd, sizeof(cmd)-1, "tr %d %d\r\n", i, info->settings.trigger_source[i]); // set trigger sources
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+	}
+
+	if (i < 8) {
+	  snprintf(cmd, sizeof(cmd)-1, "sp %d %d\r\n", i, info->settings.set_polarity[i]); // set polarity
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+	
+	  snprintf(cmd, sizeof(cmd)-1, "sg %d %d\r\n", i, info->settings.set_gain[i]); // set gain
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+	
+	  snprintf(cmd, sizeof(cmd)-1, "sw %d %d\r\n", i, info->settings.set_width[i]); // set width
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+	
+	  snprintf(cmd, sizeof(cmd)-1, "sy %d %d\r\n", i, info->settings.set_delay_line[i]); // set delay
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+	
+	  snprintf(cmd, sizeof(cmd)-1, "sd %d %d\r\n", i, info->settings.set_dead_time[i]); // set dead time
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+	
+	  snprintf(cmd, sizeof(cmd)-1, "sf %d %d\r\n", i, info->settings.set_fraction[i]); // set fraction
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+	}
+	if (i < 15) {
+	  snprintf(cmd, sizeof(cmd)-1, "pa %d %d\r\n", (i+1), info->settings.paired_coincidence[i]); // paired_coincidence
+	  BD_PUTS(cmd);
+	  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo	  
+	}
+  }
+  
+  
+  
+  snprintf(cmd, sizeof(cmd)-1, "tm %d %d\r\n", info->settings.trigger_monitor[0], info->settings.trigger_monitor[1]); // set trigger monitor
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
   
-  snprintf(cmd, sizeof(cmd)-1, "sg 0 %d\r\n", info->settings.Sg0); // set gain
+  snprintf(cmd, sizeof(cmd)-1, "sm %d %d\r\n", info->settings.set_multiplicity[0], info->settings.set_multiplicity[1]); // set multiplicity
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
   
@@ -128,13 +268,30 @@ int mcfd_apply_settings(DD_MCFD_INFO * info) {
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
   
-  snprintf(cmd, sizeof(cmd)-1, "st 0 %d\r\n", info->settings.St0); // set threshold
+  snprintf(cmd, sizeof(cmd)-1, "sk %d\r\n", info->settings.set_mask); // set mask registers
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
   
-  snprintf(cmd, sizeof(cmd)-1, "sw 0 %d\r\n", info->settings.Sw0); 
+  snprintf(cmd, sizeof(cmd)-1, "sc %d\r\n", info->settings.set_coincidence); // set coincidence
   BD_PUTS(cmd);
   BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "sv %d\r\n", info->settings.set_veto); // set veto
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "gs %d\r\n", info->settings.gate_selector); // set gate selection
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "ga 1 %d\r\n", info->settings.gate_timing); // set gate timing (NEGATIVE EDGE)
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
+  snprintf(cmd, sizeof(cmd)-1, "p%d\r\n", info->settings.pulser); // set pulser
+  BD_PUTS(cmd);
+  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  
   
   return FE_SUCCESS; // TODO: make sure things applied okay...
 }
@@ -206,36 +363,22 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
 
   info->array = (float*) calloc(channels, sizeof(float));
   info->update_time = (DWORD*) calloc(channels, sizeof(DWORD));
+  info->channel_frequency = (float*) calloc(channels, sizeof(float));
   
-  info->chn_settings.set_polarity = (int*) calloc(PAIRINGS, sizeof(int)); // TODO: these values need to be 2, 3, 4, 8, or 16 in width, not by channels
-  info->chn_settings.set_gain = (int*) calloc(PAIRINGS, sizeof(int));
-  info->chn_settings.set_threshold = (int*) calloc(CHANNELS, sizeof(int));
-  info->chn_settings.set_width = (int*) calloc(PAIRINGS, sizeof(int));
-  info->chn_settings.set_dead_time = (int*) calloc(PAIRINGS, sizeof(int));
-  info->chn_settings.set_delay_line = (int*) calloc(PAIRINGS, sizeof(int));
-  info->chn_settings.set_fraction = (int*) calloc(PAIRINGS, sizeof(int));
-  info->chn_settings.trigger_source = (int*) calloc(THREE_CHANNELS, sizeof(int));
-  info->chn_settings.trigger_monitor = (int*) calloc(TWO_CHANNELS, sizeof(int));
-  info->chn_settings.trigger_pattern = (int*) calloc(FOUR_CHANNELS, sizeof(int));
-  info->chn_settings.set_multiplicity = (int*) calloc(TWO_CHANNELS, sizeof(int));
-  info->chn_settings.paired_coincidence = (int*) calloc(CHANNELS, sizeof(int));
-  
-  info->num_channels = channels;  // TODO: make sure it is 19 channel readout
-  info->bd = bd;
-  info->hkey = hkey;
-  
-  for (int i=; i<NINETEEN_CHANNELS; i++) { // TODO: obviously change this to be back to channels, just making notes for the meantime...
+  for (int i=0; i<channels; ++i) { // TODO: obviously change this to be back to channels, just making notes for the meantime...
     info->channel_frequency[i] = ss_nan(); // initialize the channel readouts to nan
     info->array[i] = ss_nan();
     info->update_time[i] = 0;
   }
   
-  info->get_label_calls=0;
+  info->get_label_calls=0;  
   
-  
+  info->num_channels = channels;  // TODO: make sure it is 19 channel readout
+  info->bd = bd;
+  info->hkey = hkey;
 
   // DD Settings
-  status = db_create_record(hDB, hkey, "DD", DD_MCFD_SETTINGS_STR); // TODO: copy this over to also initialize the settings for the chn_settings
+  status = db_create_record(hDB, hkey, "DD", DD_MCFD_SETTINGS_STR); // should make the database correctly now...
   if (status != DB_SUCCESS)
      return FE_ERR_ODB;
 
@@ -265,11 +408,10 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   memset(str, 0, sizeof(str));
   int len=0;
   // TODO: Check to see if MCFD16 is outputing data
-  // TODO: may need to read a lot of old buffered data...
   BD_PUTS("ra 0\r\n"); // "get" measurement
   int tries=0;
   for (tries=0; tries<500; ++tries) {
-    int len = BD_GETS(str, sizeof(str)-1, "\n", 2); // will have to format this for MCFD
+    int len = BD_GETS(str, sizeof(str)-1, "\n", 2); // will have to format this for MCFD, will need heavy testing
     if (len==0 && tries > 4) break;
   }
   printf("read tries=%d, len=%d, str=``%s''\n", tries, len, str); // debugging
@@ -277,38 +419,27 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   }
 
 
-  BD_PUTS("w\n");
+  BD_PUTS("ra 0\r\n");
   len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
   len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);
-  printf("w response = ``%s''\n",str);
-//   const char testStr[] = "Kp\tKi\tKd\tmin\tmax\tset\treadPeriod";
-//   printf ("%s\n%s\n",str, testStr);
-//   printf ("%d\n",strncmp(str, testStr, 31));
-//   printf ("%d\n",strcmp(str, testStr));
-  if (strncmp(str, "Kp\tKi\tKd\tmin\tmax\tset\treadPeriod", 31) == 0) { // TODO: should be able to compare more than 31 chars to 37 or 38...
-      len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);
-      printf("w response = ``%s''\n",str);
-      float kp, ki, kd, omin, omax, setp, readPeriod;
-      sscanf(str, "%f\t%f\t%f\t%f\t%f\t%f\t%f", &kp, &ki, &kd, &omin, &omax, &setp, &readPeriod);
-      printf("%f\t%f\t%f\t%f\t%f\t%f\t%f\n", kp, ki, kd, omin, omax, setp, readPeriod);
-  }
-  
+  printf("ra 0 response = ``%s''\n",str);
+
   for (tries=0; tries<500; ++tries) {
     int len = BD_GETS(str, sizeof(str)-1, "\r\n", 2);
     if (len==0 && tries > 2) break;
   }
 
 
-  pid_apply_settings(info);
+  mcfd_apply_settings(info); // settings are probably not functional, but they appear to be getting there...
 
   return FE_SUCCESS;
 }
 
 //--------------------------------------------------------------------
 
-INT dd_arduino_fan_pid_exit(DD_FAN_PID_INFO * info)
+INT dd_mcfd_exit(DD_MCFD_INFO * info)
 {
-  printf("Running dd_arduino_fan_pid_exit\n");
+  printf("Running dd_mcfd_exit\n");
 
   // Close serial
   info->bd(CMD_EXIT, info->bd_info);
@@ -323,7 +454,7 @@ INT dd_arduino_fan_pid_exit(DD_FAN_PID_INFO * info)
 
 //--------------------------------------------------------------------
 
-INT dd_arduino_fan_pid_set(DD_FAN_PID_INFO * info, INT channel, float value)
+INT dd_mcfd_set(DD_MCFD_INFO * info, INT channel, float value)
 {
   if (channel < 0 || channel >= info->num_channels)
     return FE_ERR_DRIVER;
@@ -363,7 +494,7 @@ INT dd_arduino_fan_pid_set(DD_FAN_PID_INFO * info, INT channel, float value)
 
 //--------------------------------------------------------------------
 
-INT dd_arduino_fan_pid_get(DD_FAN_PID_INFO * info, INT channel, float *pvalue)
+INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
 {
   // Get: PID Output and PV
 
@@ -373,8 +504,6 @@ INT dd_arduino_fan_pid_get(DD_FAN_PID_INFO * info, INT channel, float *pvalue)
   memset(str, 0,sizeof(str)-1);
 
 
-  //INT PID_VERSION=1;  //## FIXME
-  //if (PID_VERSION > 1) {
   status = BD_PUTS("g\n");
   if (status < 0) {
     std::cerr << "BD_PUTS error." << std::endl;
@@ -388,22 +517,8 @@ INT dd_arduino_fan_pid_get(DD_FAN_PID_INFO * info, INT channel, float *pvalue)
   status = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); 
   if (status <= 0) {
     std::cerr << "BD_GETS error." << std::endl;
-    //al_trigger_alarm("FanPID", "Fan PID communication failure with Arduino.", 0, "BD_GETS returns < 0", AT_INTERNAL);
   }
 
-//   printf("``%s''\n", str);
-
-//   std::string s(str);
-//   size_t pos = s.find("\r\n");
-//   if (pos != std::string::npos) {
-//     s.replace(pos,2,"\\r\\n");
-//   }
-//   printf("``%s''\n", s.c_str());
-
-//   float pv = atof(s.c_str());
-//   pos = s.find("\t");
-//   float co = atof(s.c_str() + pos + 1);
-  
   float pv=0,co=0;
   if ( sscanf(str,"%f\t%f",&pv,&co) != 2) {
     std::cerr << "Error: Failed to parse data from Arduino." << std::endl;
@@ -434,7 +549,7 @@ INT dd_arduino_fan_pid_get(DD_FAN_PID_INFO * info, INT channel, float *pvalue)
 
 //--------------------------------------------------------------------
 
-INT dd_arduino_fan_pid_get_label(DD_FAN_PID_INFO * info, INT channel, char *name)
+INT dd_mcfd_get_label(DD_MCFD_INFO * info, INT channel, char *name)
 {
 
   // Keep track of calls to this function to get right channel labels with multi.c class driver.
@@ -471,7 +586,7 @@ INT dd_arduino_fan_pid_get_label(DD_FAN_PID_INFO * info, INT channel, char *name
 extern "C" {
 #endif
 
-INT dd_arduino_fan_pid(INT cmd, ...)
+INT dd_mcfd(INT cmd, ...)
 {
   va_list argptr;
   HNDLE hKey;
@@ -492,33 +607,33 @@ INT dd_arduino_fan_pid(INT cmd, ...)
       flags = va_arg(argptr, DWORD);
       if (flags==0) {} // prevent set-but-unused compile warning
       bd = va_arg(argptr, void *);
-      status = dd_arduino_fan_pid_init(hKey, (void**)info, channel, (INT (*)(INT, ...)) bd);
+      status = dd_mcfd_init(hKey, (void**)info, channel, (INT (*)(INT, ...)) bd);
       break;
 
     case CMD_EXIT:
       info = va_arg(argptr, void *);
-      status = dd_arduino_fan_pid_exit((DD_FAN_PID_INFO*) info);
+      status = dd_mcfd_exit((DD_MCFD_INFO*) info);
       break;
 
     case CMD_SET:
       info = va_arg(argptr, void *);
       channel = va_arg(argptr, INT);
       value = (float) va_arg(argptr, double);
-      status = dd_arduino_fan_pid_set((DD_FAN_PID_INFO*) info, channel, value);
+      status = dd_mcfd_set((DD_MCFD_INFO*) info, channel, value);
       break;
 
     case CMD_GET:
       info = va_arg(argptr, void *);
       channel = va_arg(argptr, INT);
       pvalue = va_arg(argptr, float *);
-      status = dd_arduino_fan_pid_get((DD_FAN_PID_INFO*) info, channel, pvalue);
+      status = dd_mcfd_get((DD_MCFD_INFO*) info, channel, pvalue);
       break;
 
     case CMD_GET_LABEL:
       info = va_arg(argptr, void *);
       channel = va_arg(argptr, INT);
       name = va_arg(argptr, char *);
-      status = dd_arduino_fan_pid_get_label((DD_FAN_PID_INFO*) info, channel, name);
+      status = dd_mcfd_get_label((DD_MCFD_INFO*) info, channel, name);
       break;
 
     default:

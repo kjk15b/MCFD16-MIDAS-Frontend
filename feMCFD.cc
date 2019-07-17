@@ -45,7 +45,7 @@ INT event_buffer_size = 10 * max_event_size;  // buffer size to hold events
 // device driver list
 
 DEVICE_DRIVER mcfd_driver[] = {
-   {"MCFD16", dd_mcfd16, 2, rs232, DF_INPUT | DF_OUTPUT},
+   {"MCFD16", dd_mcfd16, 19, rs232, DF_INPUT | DF_OUTPUT},
    {""}
 };
 
