@@ -298,7 +298,7 @@ int mcfd_apply_settings(DD_MCFD_INFO* info) {
 
 
 void mcfd_settings_updated(INT hDB, INT hkey, void* vinfo)
-{
+{ // simple routines to iterate through to check for changes in the ODB...
   printf("Settings updated\n");
 
   DD_MCFD_INFO* info = (DD_MCFD_INFO*) vinfo;
@@ -306,43 +306,135 @@ void mcfd_settings_updated(INT hDB, INT hkey, void* vinfo)
   bool changed=false;
 
   
-  if (info->settingsIncoming.kP != info->settings.kP) {
-    std::cout << "   kP changed from ``" << info->settings.kP << "'' to ``" << info->settingsIncoming.kP << "''" << std::endl;
-    info->settings.kP = info->settingsIncoming.kP;
+  if (info->settingsIncoming.BWL != info->settings.BWL) {
+    std::cout << "   BWL changed from ``" << info->settings.BWL << "'' to ``" << info->settingsIncoming.BWL << "''" << std::endl;
+    info->settings.BWL = info->settingsIncoming.BWL;
     //cm_msg(MINFO, "pid_settings_updated", "This frontend must be restarted for changes to     ``kP'' to take effect.");
     changed=true;
   }
   
-  if (info->settingsIncoming.kI != info->settings.kI) {
-    std::cout << "   kI changed from ``" << info->settings.kI << "'' to ``" << info->settingsIncoming.kI << "''" << std::endl;
-    info->settings.kI = info->settingsIncoming.kI;
+  if (info->settingsIncoming.CFD != info->settings.CFD) {
+    std::cout << "   CFD changed from ``" << info->settings.CFD << "'' to ``" << info->settingsIncoming.CFD << "''" << std::endl;
+    info->settings.CFD = info->settingsIncoming.CFD;
     changed=true;
   }
 
-  if (info->settingsIncoming.kD != info->settings.kD) {
-    std::cout << "   kD changed from ``" << info->settings.kD << "'' to ``" << info->settingsIncoming.kD << "''" << std::endl;
-    info->settings.kD = info->settingsIncoming.kD;
+  if (info->settingsIncoming.set_mask != info->settings.set_mask) {
+    std::cout << "   set_mask changed from ``" << info->settings.set_mask << "'' to ``" << info->settingsIncoming.set_mask << "''" << std::endl;
+    info->settings.set_mask = info->settingsIncoming.set_mask;
     changed=true;
   }
 
-  if (info->settingsIncoming.out_Min != info->settings.out_Min) {
-    std::cout << "   out_Min changed from ``" << info->settings.out_Min << "'' to ``" << info->settingsIncoming.out_Min << "''" << std::endl;
-    info->settings.out_Min = info->settingsIncoming.out_Min;
+  if (info->settingsIncoming.set_coincidence != info->settings.set_coincidence) {
+    std::cout << "   set_coincidence changed from ``" << info->settings.set_coincidence << "'' to ``" << info->settingsIncoming.set_coincidence << "''" << std::endl;
+    info->settings.set_coincidence = info->settingsIncoming.set_coincidence;
     changed=true;
   }
 
-  if (info->settingsIncoming.out_Max != info->settings.out_Max) {
-    std::cout << "   out_Max changed from ``" << info->settings.out_Max << "'' to ``" << info->settingsIncoming.out_Max << "''" << std::endl;
-    info->settings.out_Max = info->settingsIncoming.out_Max;
+  if (info->settingsIncoming.set_veto != info->settings.set_veto) {
+    std::cout << "   set_veto changed from ``" << info->settings.set_veto << "'' to ``" << info->settingsIncoming.set_veto << "''" << std::endl;
+    info->settings.set_veto = info->settingsIncoming.set_veto;
     changed=true;
   }
-
+  
   if (info->settingsIncoming.readPeriod_ms != info->settings.readPeriod_ms) {
     std::cout << "   readPeriod_ms changed from ``" << info->settings.readPeriod_ms << "'' to ``" << info->settingsIncoming.readPeriod_ms << "''" << std::endl;
     info->settings.readPeriod_ms = info->settingsIncoming.readPeriod_ms;
     changed=true;
   }
 
+  if (info->settingsIncoming.gate_selector != info->settings.gate_selector) {
+    std::cout << "   gate_selector changed from ``" << info->settings.gate_selector << "'' to ``" << info->settingsIncoming.gate_selector << "''" << std::endl;
+    info->settings.gate_selector = info->settingsIncoming.gate_selector;
+    changed=true;    
+  }
+  
+  if (info->settingsIncoming.gate_timing != info->settings.gate_timing) {
+    std::cout << "   gate_timing changed from ``" << info->settings.gate_timing << "'' to ``" << info->settingsIncoming.gate_timing << "''" << std::endl;
+    info->settings.gate_timing = info->settingsIncoming.gate_timing;
+    changed=true;
+  }
+  
+  if (info->settingsIncoming.pulser != info->settings.pulser) {
+    std::cout << "   pulser changed from ``" << info->settings.pulser << "'' to ``" << info->settingsIncoming.pulser << "''" << std::endl;
+    info->settings.pulser = info->settingsIncoming.pulser;
+    changed=true;
+  }
+  
+  for (int i=0; i<16; ++i) {
+    if (i < 2) {  
+      
+      if (info->settingsIncoming.set_multiplicity[i] != info->settings.set_multiplicity[i]) {
+	  std::cout << "   set_multiplicity[" << i << "]  changed from ``" << info->settings.set_multiplicity[i] << "'' to ``" << info->settingsIncoming.set_multiplicity[i] << "''" << std::endl;
+	  info->settings.set_multiplicity[0] = info->settingsIncoming.set_multiplicity[i];
+	  changed=true;
+      }
+      
+      if (info->settingsIncoming.trigger_monitor[i] != info->settings.trigger_monitor[i]) {
+	  std::cout << "   trigger_monitor[" << i << "] changed from ``" << info->settings.trigger_monitor[i] << "'' to ``" << info->settingsIncoming.trigger_monitor[i] << "''" << std::endl;
+	  info->settings.trigger_monitor[i] = info->settingsIncoming.trigger_monitor[i];
+	  changed=true;
+      }
+      
+      if (info->settingsIncoming.trigger_pattern[i] != info->settings.trigger_pattern[i]) {
+	  std::cout << "   trigger_pattern[" << i << "] changed from ``" << info->settings.trigger_pattern[i] << "'' to ``" << info->settingsIncoming.trigger_pattern[i] << "''" << std::endl;
+	  info->settings.trigger_pattern[i] = info->settingsIncoming.trigger_pattern[i];
+	  changed=true;
+      }
+    }
+    
+    if (i < 8) {
+      if (info->settingsIncoming.set_polarity[i] != info->settings.set_polarity[i]) {
+	  std::cout << "   set_polarity[" << i << "] changed from ``" << info->settings.set_polarity[i] << "'' to ``" << info->settingsIncoming.set_polarity[i] << "''" << std::endl;
+	  info->settings.set_polarity[i] = info->settingsIncoming.set_polarity[i];
+	  changed=true;
+      }
+      
+      if (info->settingsIncoming.set_gain[i] != info->settings.set_gain[i]) {
+	  std::cout << "   set_gain[" << i << "] changed from ``" << info->settings.set_gain[i] << "'' to ``" << info->settingsIncoming.set_gain[i] << "''" << std::endl;
+	  info->settings.set_gain[i] = info->settingsIncoming.set_gain[i];
+	  changed=true;
+      }
+      
+      if (info->settingsIncoming.set_width[i] != info->settings.set_width[i]) {
+	  std::cout << "   set_width[" << i << "] changed from ``" << info->settings.set_width[i] << "'' to ``" << info->settingsIncoming.set_width[i] << "''" << std::endl;
+	  info->settings.set_width[i] = info->settingsIncoming.set_width[i];
+	  changed=true;
+      }
+      
+      if (info->settingsIncoming.set_dead_time[i] != info->settings.set_dead_time[i]) {
+	  std::cout << "   set_dead_time[" << i << "] changed from ``" << info->settings.set_dead_time[i] << "'' to ``" << info->settingsIncoming.set_dead_time[i] << "''" << std::endl;
+	  info->settings.set_dead_time[i] = info->settingsIncoming.set_dead_time[i];
+	  changed=true;
+      }
+      
+      if (info->settingsIncoming.set_delay_line[i] != info->settings.set_delay_line[i]) {
+	  std::cout << "   set_delay_line[" << i << "] changed from ``" << info->settings.set_delay_line[i] << "'' to ``" << info->settingsIncoming.set_delay_line[i] << "''" << std::endl;
+	  info->settings.set_delay_line[i] = info->settingsIncoming.set_delay_line[i];
+	  changed=true;
+      }
+      
+      if (info->settingsIncoming.set_fraction[i] != info->settings.set_fraction[i]) {
+	  std::cout << "   set_fraction[" << i << "] changed from ``" << info->settings.set_fraction[i] << "'' to ``" << info->settingsIncoming.set_fraction[i] << "''" << std::endl;
+	  info->settings.set_fraction[i] = info->settingsIncoming.set_fraction[i];
+	  changed=true;
+      }
+      
+    }
+    
+    if (info->settingsIncoming.set_threshold[i] != info->settings.set_threshold[i]) {
+	  std::cout << "   set_threshold[" << i << "] changed from ``" << info->settings.set_threshold[i] << "'' to ``" << info->settingsIncoming.set_threshold[i] << "''" << std::endl;
+	  info->settings.set_threshold[i] = info->settingsIncoming.set_threshold[i];
+	  changed=true;
+      }
+      
+    if (info->settingsIncoming.paired_coincidence[i] != info->settings.paired_coincidence[i]) {
+	  std::cout << "   paired_coincidence[" << i << "] changed from ``" << info->settings.paired_coincidence[i] << "'' to ``" << info->settingsIncoming.paired_coincidence[i] << "''" << std::endl;
+	  info->settings.paired_coincidence[i] = info->settingsIncoming.paired_coincidence[i];
+	  changed=true;
+      }
+  }
+  
   if (changed) mcfd_apply_settings(info); // TODO: only apply the changed ones...
 }
 
