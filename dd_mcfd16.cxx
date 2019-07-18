@@ -202,8 +202,26 @@ typedef struct {
   HNDLE hkey;                  // ODB key for bus driver info
 
 
-  float *channel_frequency; // 0-15 standard channels 16-18 are trig0,1,2 and 19 is total 
-  
+  float channel_0_frequency; // 0-15 standard channels 16-18 are trig0,1,2 and 19 is total 
+  float channel_1_frequency;
+  float channel_2_frequency;
+  float channel_3_frequency;
+  float channel_4_frequency;
+  float channel_5_frequency;
+  float channel_6_frequency;
+  float channel_7_frequency;
+  float channel_8_frequency;
+  float channel_9_frequency;
+  float channel_10_frequency;
+  float channel_11_frequency;
+  float channel_12_frequency;
+  float channel_13_frequency;
+  float channel_14_frequency;
+  float channel_15_frequency;
+  float trig_0_frequency;
+  float trig_1_frequency;
+  float trig_2_frequency;
+  float trig_total_frequency;
   
   float *array;                // Most recent measurement or NaN, one for each channel
   DWORD *update_time;          // seconds
