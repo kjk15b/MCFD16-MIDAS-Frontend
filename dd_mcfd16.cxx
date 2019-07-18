@@ -27,6 +27,28 @@
 #define DEFAULT_TIMEOUT 1000     // milliseconds
 
 
+#define CHAN_INP_POLARITY 0
+#define CHAN_INP_GAIN 1
+#define CHAN_INP_THRESHOLD 2
+#define CHAN_INP_WIDTH 3
+#define CHAN_INP_DEAD_TIME 4
+#define CHAN_INP_DELAY_LINE 5
+#define CHAN_INP_FRACTION 6
+#define CHAN_INP_TRIGGER_SOURCE 7
+#define CHAN_INP_TRIGGER_PATTERN 8
+#define CHAN_INP_MULTIPLICITY 9
+#define CHAN_INP_PAIRED_COINCIDENCE 10
+#define CHAN_INP_BWL 11
+#define CHAN_INP_CFD 12
+#define CHAN_INP_SET_MASK 13
+#define CHAN_INP_SET_COINCIDENCE 14
+#define CHAN_INP_SET_VETO 15
+#define CHAN_INP_GATE_SELECTOR 16
+#define CHAN_INP_GATE_TIMING 17
+#define CHAN_INP_PULSER 18
+#define CHAN_OUT_FREQUENCY 19
+#define CHAN_OUT_RE 20 // not known if this is necessary...
+
 
 #define DD_MCFD_SETTINGS_STR "\
 BWL = INT : 1\n\
@@ -650,14 +672,62 @@ INT dd_mcfd_get_label(DD_MCFD_INFO * info, INT channel, char *name)
   }
 
   switch (channel) {
-    case CHAN_INP_PV:
-      strncpy(name, "Process Value degC", NAME_LENGTH-1);
+    case CHAN_INP_POLARITY:
+      strncpy(name, "Pairing Polarity", NAME_LENGTH-1);
       break;
-    case CHAN_INP_CO:
-      strncpy(name, "Controlled Output", NAME_LENGTH-1);
+    case CHAN_INP_GAIN:
+      strncpy(name, "Pairing Gain", NAME_LENGTH-1);
       break;
-    case CHAN_OUT_SP:
-      strncpy(name, "Setpoint degC", NAME_LENGTH-1);
+    case CHAN_INP_THRESHOLD:
+      strncpy(name, "Threshold Setpoint", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_WIDTH:
+      strncpy(name, "Pairing Width", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_DEAD_TIME:
+      strncpy(name, "Pairing Dead Time", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_DELAY_LINE:
+      strncpy(name, "Pairing Delay Line", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_FRACTION:
+      strncpy(name, "Pairing Fraction", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_TRIGGER_SOURCE:
+      strncpy(name, "Trigger Source", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_TRIGGER_PATTERN:
+      strncpy(name, "Trigger Pattern", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_MULTIPLICITY:
+      strncpy(name, "Multiplicity Setpoint", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_PAIRED_COINCIDENCE:
+      strncpy(name, "Paired Coincidence", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_BWL:
+      strncpy(name, "Bandwidth Limit", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_CFD:
+      strncpy(name, "Constant Fraction Discrimination", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_SET_MASK:
+      strncpy(name, "Mask Registers", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_SET_COINCIDENCE:
+      strncpy(name, "Global Coincidence", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_SET_VETO:
+      strncpy(name, "Enable Fast Veto", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_GATE_SELECTOR:
+      strncpy(name, "Gate Select", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_GATE_TIMING:
+      strncpy(name, "Gate Timing", NAME_LENGTH-1);
+      break;
+    case CHAN_INP_PULSER:
+      strncpy(name, "Pulser", NAME_LENGTH-1);
       break;
     case CHAN_OUT_RE:
       strncpy(name, "reserved", NAME_LENGTH-1);
