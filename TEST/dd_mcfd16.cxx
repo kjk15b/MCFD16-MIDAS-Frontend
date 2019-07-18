@@ -30,10 +30,11 @@
 #define CHAN_INP_PULSER 0
 #define CHAN_OUT_FREQUENCY 1
 #define CHAN_OUT_RE 2 // not known if this is necessary...
+#define NAN 3
 
 
 #define DD_MCFD_SETTINGS_STR "\
-pulser = INT : 3\n\
+pulser = INT : 1\n\
 Read Period ms = FLOAT : 200\n\
 "
 
@@ -171,24 +172,25 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   memset(str, 0, sizeof(str));
   int len=0;
   // TODO: Check to see if MCFD16 is outputing data
-  BD_PUTS("v\r\n"); // "get" measurement
+  BD_PUTS("p0\r\n"); // "get" measurement
   int tries=0;
-  for (tries=0; tries<500; ++tries) {
-    int len = BD_GETS(str, sizeof(str)-1, "\n", 2); // will have to format this for MCFD, will need heavy testing
-    if (len==0 && tries > 4) break;
+  for (tries=0; tries<10; ++tries) {
+    int len = BD_GETS(str, sizeof(str)+100, "\r\n", 10); // will have to format this for MCFD, will need heavy testing
+    //if (len==0 && tries > 4) break;
+    printf("str=%s\t\ttry=%d\t\tlen=%d\n", str, tries, len);
   }
   printf("read tries=%d, len=%d, str=``%s''\n", tries, len, str); // debugging
   if (len == 0) {
   }
 
 
-  BD_PUTS("v\r\n");
+  BD_PUTS("ra 0\r\n");
   len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
   len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);
-  printf("v response = ``%s''\n",str);
+  printf("ra 0 response = ``%s''\n",str);
 
   for (tries=0; tries<500; ++tries) {
-    int len = BD_GETS(str, sizeof(str)-1, "\r\n", 2);
+    int len = BD_GETS(str, sizeof(str)-1, "\r\n", 5);
     if (len==0 && tries > 2) break;
   }
 
@@ -320,6 +322,12 @@ INT dd_mcfd_get_label(DD_MCFD_INFO * info, INT channel, char *name)
       break;
     case CHAN_OUT_RE:
       strncpy(name, "reserved", NAME_LENGTH-1);
+      break;
+    case CHAN_OUT_FREQUENCY:
+      strncpy(name, "Channel Frequency", NAME_LENGTH-1);
+      break;
+    case NAN:
+      strncpy(name, "NAN", NAME_LENGTH-1);
       break;
     default:
       //snprintf(name,"");
