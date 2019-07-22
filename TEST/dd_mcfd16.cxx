@@ -17,6 +17,7 @@
 #include <cmath>
 #include <algorithm>
 #include <iostream>
+#include <regex>
 
 #include "midas.h"
 
@@ -172,10 +173,10 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   memset(str, 0, sizeof(str));
   int len=0;
   // TODO: Check to see if MCFD16 is outputing data
-  BD_PUTS("p0\r\n"); // "get" measurement
+  BD_PUTS("p1\r\n"); // "get" measurement
   int tries=0;
   for (tries=0; tries<10; ++tries) {
-    int len = BD_GETS(str, sizeof(str)+100, "\r\n", 10); // will have to format this for MCFD, will need heavy testing
+    int len = BD_GETS(str, sizeof(str), "\r\n", 1000); // will have to format this for MCFD, will need heavy testing
     //if (len==0 && tries > 4) break;
     printf("str=%s\t\ttry=%d\t\tlen=%d\n", str, tries, len);
   }
@@ -185,8 +186,8 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
 
 
   BD_PUTS("ra 0\r\n");
-  len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
-  len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);
+  len = BD_GETS(str, sizeof(str)-1, "\r\n", 1000);  // EXTRA dummy read to readback "echo?"
+  len = BD_GETS(str, sizeof(str)-1, "\r\n", 1000);
   printf("ra 0 response = ``%s''\n",str);
 
   for (tries=0; tries<500; ++tries) {
@@ -265,7 +266,10 @@ INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
   char str[256];
   *pvalue = ss_nan();
   memset(str, 0,sizeof(str)-1);
-
+  
+  //const char cstr[];
+  std::cmatch cm;
+  std::regex match ("(rate)(.*)");
 
   status = BD_PUTS("ra 0\r\n");
   if (status < 0) {
@@ -274,13 +278,23 @@ INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
     return FE_ERR_HW;
   }
   //}
-
-  status = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
-  ss_sleep(50);
-  status = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); 
-  if (status <= 0) {
-    std::cerr << "BD_GETS error." << std::endl;
-  }
+  //int attempts=100;
+  //while (attempts>=0) {
+    status = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
+    ss_sleep(50);
+    printf("String:\t%s\n", str);
+    status = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); 
+    printf("String2:\t%s\n", str);
+    if (status <= 0) {
+      std::cerr << "BD_GETS error." << std::endl;
+    }
+    std::cout<<std::regex_match (str, cm, match)<<std::endl;
+    if (cm.size() > 0) {
+      printf("String:\t%s\n", str);
+    }
+    
+    //attempts--;
+  //}
 
   float frq=0;
   if ( sscanf(str,"%f",&frq) != 1) { // need to figure out how to read this properly

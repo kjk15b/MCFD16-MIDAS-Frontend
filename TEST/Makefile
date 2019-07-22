@@ -4,7 +4,7 @@
 
 DEBUGFLAGS=-g -fpermissive
 #DEBUGFLAGS=
-CFLAGS=$(DEBUGFLAGS) -Wall -Os -I$(MIDASSYS)/include -I$(MIDASSYS)/drivers/class -I$(MIDASSYS)/drivers/bus -fpermissive
+CFLAGS=$(DEBUGFLAGS) -Wall -Os -I$(MIDASSYS)/include -I$(MIDASSYS)/drivers/class -I$(MIDASSYS)/drivers/bus -fpermissive -std=c++11
 CXXFLAGS=$(CFLAGS)
 LDFLAGS=$(MIDASSYS)/linux/lib/mfe.o  -L$(MIDASSYS)/linux/lib -lmidas -lpthread -lutil -lrt -lz 
 
