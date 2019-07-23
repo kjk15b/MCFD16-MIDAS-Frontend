@@ -13,4 +13,5 @@ def main():
   dev = mcfd.MCFD(udev) # construct the object
   dev.clear_pulser()
   dev.initialize() # initialize the device
+  print dev.exit()
 main()

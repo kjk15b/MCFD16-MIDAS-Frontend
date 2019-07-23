@@ -17,14 +17,14 @@ class MCFD():
     return
   
   def readout(self): # debugging to see if we made the program right...
-    for i in range(10):
+    for i in range(5):
       print self.dev.readline()
 
   def clear(self):
     #time.sleep(0.25)
-    self.dev.write("\r\n")
+    #self.dev.write("\r\n")
     self.readout()
-    time.sleep(0.25)
+    #time.sleep(0.25)
   
   def set_Polarity(self, channel_pair, val): # pair
      cmd = "sp " + str(channel_pair) + " " + str(val) + "\r\n" # construct the command
@@ -165,5 +165,9 @@ class MCFD():
       
     for i in range(16):
       self.set_Threshold(i, 0) # initialize all thresholds to zero
-      self.set_Pairings(i+1, 255) # global pairing
+      self.set_Pairings(i, 255) # global pairing
     return 1
+  
+  def exit(self):
+    self.dev.close()
+    return -1

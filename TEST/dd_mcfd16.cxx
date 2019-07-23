@@ -8,7 +8,7 @@
 //  $Id: $
 //
 //********************************************************************
-
+#include <string>
 #include <cstdio>
 #include <cstdlib>
 #include <cstdarg>
@@ -18,11 +18,9 @@
 #include <algorithm>
 #include <iostream>
 #include <regex>
-
 #include "midas.h"
-
 #undef calloc
-
+using namespace std;
 
 
 #define DEFAULT_TIMEOUT 1000     // milliseconds
@@ -38,6 +36,37 @@
 pulser = INT : 1\n\
 Read Period ms = FLOAT : 200\n\
 "
+
+float cut_string_frq(std::string str) {
+  regex chn_header("rate channel [0-9]*: ");
+  regex chn_units(" Hz|kHz|MHz");
+  regex khz(" kHz");
+  regex hz(" Hz");
+  regex mhz(" MHz");
+  double frq=0, div=1; // frequency place holder and divider to catch units, report in kHz
+  
+  smatch m;
+  if (regex_search(str, m, chn_header)){ // check for event header
+    cout << "Found channel... " << endl << "Cutting channel..." << endl;
+    str=std::regex_replace(str, chn_header, ""); // cut the header
+    cout << str << endl;
+    if (regex_search(str, m, chn_units)) {
+      cout << "Found units... " << endl << "Cutting units..." << endl;
+      if (regex_search(str, m, khz))
+	div=1; // in the units we want
+      if (regex_search(str, m, hz))
+	div=1000; // divide by 1000 to return kHz
+      if (regex_search(str, m, mhz))
+	div=0.001; // multiply by a thousand to get the right units
+      str=std::regex_replace(str, chn_units, "");
+      frq=::atof(str.c_str());
+      cout << "div:\t" << div << endl; 
+      frq=frq/div; // set to kHz
+      return frq;
+    }
+  }
+  return -1; // does not find rate correctly...
+}
 
 
 typedef struct {
@@ -173,10 +202,12 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   memset(str, 0, sizeof(str));
   int len=0;
   // TODO: Check to see if MCFD16 is outputing data
-  BD_PUTS("p1\r\n"); // "get" measurement
+  status = BD_PUTS("p1\r\n"); // "get" measurement
+  printf("BD_PUTS status = %d\n", status);
+  ss_sleep(50);
   int tries=0;
-  for (tries=0; tries<10; ++tries) {
-    int len = BD_GETS(str, sizeof(str), "\r\n", 1000); // will have to format this for MCFD, will need heavy testing
+  for (tries=0; tries<15; ++tries) {
+    int len = BD_GETS(str, sizeof(str), "\n", DEFAULT_TIMEOUT+500); // will have to format this for MCFD, will need heavy testing
     //if (len==0 && tries > 4) break;
     printf("str=%s\t\ttry=%d\t\tlen=%d\n", str, tries, len);
   }
@@ -186,12 +217,12 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
 
 
   BD_PUTS("ra 0\r\n");
-  len = BD_GETS(str, sizeof(str)-1, "\r\n", 1000);  // EXTRA dummy read to readback "echo?"
-  len = BD_GETS(str, sizeof(str)-1, "\r\n", 1000);
+  len = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
+  //len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);
   printf("ra 0 response = ``%s''\n",str);
 
   for (tries=0; tries<500; ++tries) {
-    int len = BD_GETS(str, sizeof(str)-1, "\r\n", 5);
+    int len = BD_GETS(str, sizeof(str)-1, "\n", 5);
     if (len==0 && tries > 2) break;
   }
 
@@ -264,43 +295,46 @@ INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
 
   INT status = 0;
   char str[256];
+  string line=""; // have to do everything in terms of strings otherwise regex breaks
   *pvalue = ss_nan();
   memset(str, 0,sizeof(str)-1);
+  regex chn_header("rate channel [0-9]*: "); // pattern to find channel id
+  regex chn_units(" Hz|kHz|MHz"); // do dummy searching before calling cut routine
+  smatch m; // flag for searching, don't really use it...
+  float frq=0; // frequency returned from cutting
   
-  //const char cstr[];
-  std::cmatch cm;
-  std::regex match ("(rate)(.*)");
-
   status = BD_PUTS("ra 0\r\n");
   if (status < 0) {
     std::cerr << "BD_PUTS error." << std::endl;
     al_trigger_alarm("MCFD16", "MCFD16 communication failure with Mesytec MCFD16.", 0, "BD_PUTS returns < 0", AT_INTERNAL);
     return FE_ERR_HW;
   }
-  //}
-  //int attempts=100;
-  //while (attempts>=0) {
-    status = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
-    ss_sleep(50);
-    printf("String:\t%s\n", str);
-    status = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); 
+  ss_sleep(100);
+  status = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT+500);  // EXTRA dummy read to readback "echo?"
+  printf("String:\t%s\n", str);
+  line=str;
+  if (regex_search(line, m, chn_header)) { // check to see if we found the header
+    if (regex_search(line, m, chn_units)) { // check to see if we have units, makes sure we found the right thing
+      frq=cut_string_frq(line);
+      }
+  }
+  else {    
+    status = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT+500); 
     printf("String2:\t%s\n", str);
+    ss_sleep(50);
     if (status <= 0) {
       std::cerr << "BD_GETS error." << std::endl;
     }
-    std::cout<<std::regex_match (str, cm, match)<<std::endl;
-    if (cm.size() > 0) {
-      printf("String:\t%s\n", str);
-    }
-    
-    //attempts--;
-  //}
-
-  float frq=0;
-  if ( sscanf(str,"%f",&frq) != 1) { // need to figure out how to read this properly
+    line=str;
+    if (regex_search(line, m, chn_header)) { // check to see if we found the header
+      if (regex_search(line, m, chn_units)) { // check to see if we have units, makes sure we found the right thing
+	frq=cut_string_frq(line);
+	}
+      }
+  }
+  if ( frq == -1) { // My own dummy errors, deal with it
     std::cerr << "Error: Failed to parse data from MCFD16." << std::endl;
-    std::cerr << "received: ``" << str << "''" << std::endl;
-//    al_trigger_alarm("FanPID", "Fan PID communication failure with Arduino.", 0, "Failed to parse received data", AT_INTERNAL); // TODO: re-enable this...
+    std::cerr << "received: ``" << frq << "''" << std::endl;
     return FE_ERR_HW;
   }
 
