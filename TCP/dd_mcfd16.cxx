@@ -302,18 +302,6 @@ INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
   regex chn_units(" Hz|kHz|MHz"); // do dummy searching before calling cut routine
   smatch m; // flag for searching, don't really use it...
   float frq=0; // frequency returned from cutting
-  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT);
-  printf("Feedback:\t%s\n", str);
-  line=str;
-  if (regex_search(line, m, chn_header)) { // check to see if we found the header
-    if (regex_search(line, m, chn_units)) { // check to see if we have units, makes sure we found the right thing
-      frq=cut_string_frq(line);
-      }
-  }
-  for (int i=0;i<4;++i) {
-    BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT);
-    printf(".\n", str);
-  }
   
   status = BD_PUTS("ra 0\r\n");
   if (status < 0) {
@@ -323,7 +311,7 @@ INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
   }
   ss_sleep(100);
   status = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT+500);  // EXTRA dummy read to readback "echo?"
-  //printf("String:\t%s\n", str);
+  printf("String:\t%s\n", str);
   line=str;
   if (regex_search(line, m, chn_header)) { // check to see if we found the header
     if (regex_search(line, m, chn_units)) { // check to see if we have units, makes sure we found the right thing
@@ -332,7 +320,7 @@ INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
   }
   else {    
     status = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT+500); 
-    //printf("String2:\t%s\n", str);
+    printf("String2:\t%s\n", str);
     ss_sleep(50);
     if (status <= 0) {
       std::cerr << "BD_GETS error." << std::endl;

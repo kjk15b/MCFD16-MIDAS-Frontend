@@ -1,0 +1,1144 @@
+puts: p1
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p3
+
+getstr 
+: p3
+
+
+puts: ra 0
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: mcra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p1
+
+getstr 
+: p1
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p3
+
+getstr 
+: p3
+
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p1
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p3
+
+getstr 
+: p3
+
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p1
+
+getstr 
+: p1
+
+getstr 
+: 
+
+getstr 
+: pulser fast on
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p3
+
+getstr 
+: p3
+
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p1
+
+getstr 
+: p1
+
+getstr 
+: 
+
+getstr 
+: pulser fast on
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p3
+
+getstr 
+: p3
+
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p1
+
+getstr 
+: p1
+
+getstr 
+: 
+
+getstr 
+: pulser fast on
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p3
+
+getstr 
+: p3
+
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p1
+
+getstr 
+: p1
+
+getstr 
+: 
+
+getstr 
+: pulser fast on
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: p3
+
+getstr 
+: p3
+
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.499 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: rate channel 0: 2.500 MHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
