@@ -18,18 +18,20 @@
 #include <algorithm>
 #include <iostream>
 #include <regex>
+#include <sstream>
 #include "midas.h"
 #undef calloc
 using namespace std;
 
 
 #define DEFAULT_TIMEOUT 1000     // milliseconds
+#define SHORT_TIMEOUT 100
 
 
-#define CHAN_INP_PULSER 0
-#define CHAN_OUT_FREQUENCY 1
-#define CHAN_OUT_RE 2 // not known if this is necessary...
-#define NAN 3
+#define TRIGGER_0_OUT 16
+#define TRIGGER_1_OUT 17
+#define TRIGGER_2_OUT 18
+#define SUM_OUT 19
 
 
 #define DD_MCFD_SETTINGS_STR "\
@@ -37,35 +39,130 @@ pulser = INT : 1\n\
 Read Period ms = FLOAT : 200\n\
 "
 
+string removeChar (std::string str) {
+    int i=str.length();
+    int k=0;
+    while (k<=i) {
+      cout << " { " << str[k];
+      if ((str[k] > 57 || ((str[k] < 48) && str[k] != 46)) && str[k] != 0){
+	cout << "Found value: 0x" << std::hex << (int) str[k] << std::dec;
+	str[k]=0x20;
+      }
+      cout << " } ";
+      k++;
+    }
+    cout << endl;
+    return str;
+}
+
+string removeSpaces (std::string str) {
+  str.erase(std::remove(str.begin(), str.end(),' '), str.end());
+  str.erase(std::remove(str.begin(), str.end(),'\n'), str.end());
+  str.erase(std::remove(str.begin(), str.end(),'\r'), str.end());
+  str.erase(std::remove(str.begin(), str.end(),'\t'), str.end());
+  str.erase(std::remove(str.begin(), str.end(),'\f'), str.end());
+  str.erase(std::remove(str.begin(), str.end(),'\v'), str.end());
+  return str;
+}
+
+string shiftDigits (std::string str) {
+  cout << "--------------------\n";
+  int i=str.length();
+  int k=0;
+  while (k<=i-3) { // seems to always have 3 initial blank spaces and 3 final blank spaces
+    if (str[k]==0)
+      str[k]=str[k+3];
+    cout << " { " << str[k] << " } ";
+    k++;
+  }
+  return str; // may have to work on ending condition
+}
+
 float cut_string_frq(std::string str) {
   regex chn_header("rate channel [0-9]*: ");
+  regex trg_header("trigger rate[0-9]*: ");
+  regex sum_header("sum rate : ");
   regex chn_units(" Hz|kHz|MHz");
   regex khz(" kHz");
   regex hz(" Hz");
   regex mhz(" MHz");
-  double frq=0, div=1; // frequency place holder and divider to catch units, report in kHz
+  float frq=0, div=1; // frequency place holder and divider to catch units, report in kHz
+  bool found_header=false;
   
   smatch m;
-  if (regex_search(str, m, chn_header)){ // check for event header
+  if (regex_search(str, m, chn_header)) { // check for event header
     cout << "Found channel... " << endl << "Cutting channel..." << endl;
     str=std::regex_replace(str, chn_header, ""); // cut the header
     cout << str << endl;
+    found_header=true;
+  }
+  else if (regex_search(str, m, trg_header)) {
+    cout << "Found trigger... " << endl << "Cutting trigger..." << endl;
+    str=std::regex_replace(str, trg_header, ""); // cut the header
+    cout << str << endl;
+    found_header=true;
+  }
+  else if (regex_search(str, m, sum_header)) {
+    cout << "Found sum rates... " << endl << "Cutting sum rates..." << endl;
+    str=std::regex_replace(str, sum_header, ""); // cut the header
+    cout << str << endl;
+    found_header=true;
+  }
+  else
+    found_header=false;
+  if (found_header==true){
     if (regex_search(str, m, chn_units)) {
       cout << "Found units... " << endl << "Cutting units..." << endl;
       if (regex_search(str, m, khz))
-	div=1; // in the units we want
-      if (regex_search(str, m, hz))
-	div=1000; // divide by 1000 to return kHz
-      if (regex_search(str, m, mhz))
-	div=0.001; // multiply by a thousand to get the right units
+	div=1000; // in the units we want
+      else if (regex_search(str, m, hz))
+	div=1; // divide by 1000 to return kHz
+      else if (regex_search(str, m, mhz))
+	div=1000000; // multiply by a thousand to get the right units
       str=std::regex_replace(str, chn_units, "");
+      //str=removeSpaces(str);
+      str=removeChar(str);
+      //str=shiftDigits(str);
+      //str=removeChar(str);
+      cout << "Frequency:\t\t" << frq << "\nString=\t\t{" << str.c_str() << "}" << endl;
+      
       frq=::atof(str.c_str());
-      cout << "div:\t" << div << endl; 
-      frq=frq/div; // set to kHz
+      //frq=strtof(str.c_str(), 0);
+      //cout << "div:\t\t" << div << endl; 
+      
+      frq=frq*div; // set to kHz
+      //cout << "Frequency:\t\t" << frq << "\nString=\t\t{" << str.c_str() << "}" << endl;
       return frq;
     }
   }
   return -1; // does not find rate correctly...
+}
+
+float mcfd_get (std::string str) { // fetch our string and concatenate it to pass to cut_string
+  smatch m;
+  regex cmd_header("ra [0-9]*");
+  regex mcfd_ret("mcfd-16>");
+  cout << "\n-------------------\n";
+  for (size_t i=0;i<str.length();++i) {
+    if (str[i]=='\n')
+      str[i]=0x20;
+    if (str[i]=='\r') // remove all characters that cause us problems
+      str[i]=0x20;
+    //cout << " { " << cpy_str[i] << " } ";
+  }
+  //cout << "\n--------------------\nReceived:\n\n" << str << "\n--------------------\n";
+  if (regex_search(str, m, cmd_header)){
+    //cout << "Found instruction word" << endl;
+    str=std::regex_replace(str, cmd_header, "");
+    //cout << "str=\t\t" << str << endl;
+    if (regex_search(str, m, mcfd_ret)) {
+      //cout << "Found trailing return" << endl;
+      str=std::regex_replace(str, mcfd_ret, "");
+      //cout << "str=\t\t" << str << endl;
+      return cut_string_frq(str);
+      }
+    }
+  return -1; // something did not go right...
 }
 
 
@@ -86,7 +183,8 @@ typedef struct {
   HNDLE hkey;                  // ODB key for bus driver info
 
 
-  float channel_0_frequency; // 0-15 standard channels 16-18 are trig0,1,2 and 19 is total 
+  float chn_0_frq; // 0-15 standard channels 16-18 are trig0,1,2 and 19 is total 
+  float chn_1_frq;
   
   float *array;                // Most recent measurement or NaN, one for each channel
   DWORD *update_time;          // seconds
@@ -164,7 +262,8 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
     info->update_time[i] = 0;
   }
   
-  info->channel_0_frequency = ss_nan();
+  info->chn_0_frq = ss_nan();
+  info->chn_1_frq = ss_nan();
   info->get_label_calls=0;  
   
   info->num_channels = channels;  // TODO: make sure it is 19 channel readout
@@ -196,26 +295,31 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
   if (status != SUCCESS) return status;
   
   printf("Sending initialization commands to MCFD16\n");
-  
-
   char str[256];
   memset(str, 0, sizeof(str));
   int len=0;
+  stringstream input;
+  string out_string;
+  float read=-1;// default to bad read
+  
+  
   // TODO: Check to see if MCFD16 is outputing data
-  status = BD_PUTS("p1\r\n"); // "get" measurement
+  status = BD_PUTS("ra 19\r\n"); // read firmware ID...
   printf("BD_PUTS status = %d\n", status);
   ss_sleep(50);
   int tries=0;
   for (tries=0; tries<15; ++tries) {
-    int len = BD_GETS(str, sizeof(str), "\n", DEFAULT_TIMEOUT+500); // will have to format this for MCFD, will need heavy testing
+    int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
     //if (len==0 && tries > 4) break;
-    printf("str=%s\t\ttry=%d\t\tlen=%d\n", str, tries, len);
+    input << str;
   }
-  printf("read tries=%d, len=%d, str=``%s''\n", tries, len, str); // debugging
-  if (len == 0) {
-  }
+  out_string=input.str(); // collect in string format...
+  read=mcfd_get(out_string);
+  cout << "BD_GETS Return:\n\n" << read << " Hz" << endl;
+  //if (len == 0) {
+  //}
 
-
+  /*
   BD_PUTS("ra 0\r\n");
   len = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT);  // EXTRA dummy read to readback "echo?"
   //len = BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT);
@@ -225,10 +329,12 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
     int len = BD_GETS(str, sizeof(str)-1, "\n", 5);
     if (len==0 && tries > 2) break;
   }
-
+  */
 
   mcfd_apply_settings(info); // settings are probably not functional, but they appear to be getting there...
-
+  //status = info->bd(CMD_EXIT, info->bd_info);
+  printf("...\n%d", status);
+  
   return FE_SUCCESS;
 }
 
@@ -265,16 +371,16 @@ INT dd_mcfd_set(DD_MCFD_INFO * info, INT channel, int value) // TODO: make sure 
   printf("Set channel %d to %d\n", channel, value);
   
   switch (channel) {
-    case CHAN_INP_PULSER: // Pulser status
+    case TRIGGER_0_OUT: // Pulser status
       // TODO: make sure "value" is reasonable
-      info->settings.pulser = value;
-      snprintf(cmd, sizeof(cmd)-1, "p%d\r\n", info->settings.pulser);
-      BD_PUTS(cmd);
-      BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
-      printf("Pulser set to %d\n", info->settings.pulser);
+      //info->settings.pulser = value;
+      //snprintf(cmd, sizeof(cmd)-1, "p%d\r\n", info->settings.pulser);
+      //BD_PUTS(cmd);
+      //BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT); // read echo
+      //printf("Pulser set to %d\n", info->settings.pulser);
       // TODO: make sure it was applied correctly...
       break;
-    case CHAN_OUT_RE:
+    case TRIGGER_1_OUT:
       // FIXME: not implemented
       //int ivalue = (int) value;
       //if (ivalue < 0 || ivalue > 255) {
@@ -292,71 +398,49 @@ INT dd_mcfd_set(DD_MCFD_INFO * info, INT channel, int value) // TODO: make sure 
 INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
 {
   // Get: PID Output and PV
-
+  //INT chn = channel + 2;
+  printf("\n--------------------\nChecking Channel:\t%d\n--------------------\n", channel);
   INT status = 0;
-  char str[256];
+  char str[256], cmd[256];
   string line=""; // have to do everything in terms of strings otherwise regex breaks
   *pvalue = ss_nan();
   memset(str, 0,sizeof(str)-1);
-  regex chn_header("rate channel [0-9]*: "); // pattern to find channel id
-  regex chn_units(" Hz|kHz|MHz"); // do dummy searching before calling cut routine
-  smatch m; // flag for searching, don't really use it...
+  stringstream input;
+  string out_string;
+  
+  snprintf(cmd, sizeof(cmd)-1, "ra %d\r\n", channel);
+  status = BD_PUTS(cmd);
+  printf("BD_PUTS status = %d\n", status);
+  ss_sleep(50);
+  
   float frq=0; // frequency returned from cutting
-  BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT);
-  printf("Feedback:\t%s\n", str);
-  line=str;
-  if (regex_search(line, m, chn_header)) { // check to see if we found the header
-    if (regex_search(line, m, chn_units)) { // check to see if we have units, makes sure we found the right thing
-      frq=cut_string_frq(line);
-      }
-  }
-  for (int i=0;i<4;++i) {
-    BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT);
-    printf(".\n", str);
+  int len;
+  len = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT);
+  printf("Length:\t%d\n", len);
+  
+  int tries=0;
+  for (tries=0; tries<15; ++tries) {
+    int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
+    //if (len==0 && tries > 4) break;
+    printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
+    input << str;
   }
   
-  status = BD_PUTS("ra 0\r\n");
-  if (status < 0) {
-    std::cerr << "BD_PUTS error." << std::endl;
-    al_trigger_alarm("MCFD16", "MCFD16 communication failure with Mesytec MCFD16.", 0, "BD_PUTS returns < 0", AT_INTERNAL);
-    return FE_ERR_HW;
-  }
-  ss_sleep(100);
-  status = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT+500);  // EXTRA dummy read to readback "echo?"
-  //printf("String:\t%s\n", str);
-  line=str;
-  if (regex_search(line, m, chn_header)) { // check to see if we found the header
-    if (regex_search(line, m, chn_units)) { // check to see if we have units, makes sure we found the right thing
-      frq=cut_string_frq(line);
-      }
-  }
-  else {    
-    status = BD_GETS(str, sizeof(str)-1, "\n", DEFAULT_TIMEOUT+500); 
-    //printf("String2:\t%s\n", str);
-    ss_sleep(50);
-    if (status <= 0) {
-      std::cerr << "BD_GETS error." << std::endl;
-    }
-    line=str;
-    if (regex_search(line, m, chn_header)) { // check to see if we found the header
-      if (regex_search(line, m, chn_units)) { // check to see if we have units, makes sure we found the right thing
-	frq=cut_string_frq(line);
-	}
-      }
-  }
-  if ( frq == -1) { // My own dummy errors, deal with it
-    std::cerr << "Error: Failed to parse data from MCFD16." << std::endl;
-    std::cerr << "received: ``" << frq << "''" << std::endl;
-    return FE_ERR_HW;
-  }
-
-   printf("FRQ=%.2f\n", frq);
+  out_string=input.str(); // collect in string format...
+  cout << " { " << out_string << " } " << "\n { " << out_string.c_str() << " } " << endl;
+  frq = mcfd_get(out_string); // try to get the data...
+  cout << "Frequency: " << frq << endl;
 
   switch (channel) {
-    case CHAN_OUT_FREQUENCY:
+    case TRIGGER_0_OUT:
       *pvalue = frq;
-      info->channel_0_frequency = frq;
+      info->chn_0_frq = frq;
+      printf("Channel:\t%d\tFrequency:\t%f\n", channel, frq);
       break;
+    case TRIGGER_1_OUT:
+      *pvalue = frq;
+      info->chn_1_frq = frq;
+      printf("Channel:\t%d\tFrequency:\t%f\n", channel, frq);
     default:
       *pvalue = ss_nan();
       break;
@@ -372,31 +456,31 @@ INT dd_mcfd_get_label(DD_MCFD_INFO * info, INT channel, char *name)
 {
 
   // Keep track of calls to this function to get right channel labels with multi.c class driver.
-  if (info->num_channels==2 && info->get_label_calls > info->num_channels/2) {
-    channel+=info->num_channels;
-  }
+  //if (info->num_channels==2 && info->get_label_calls > info->num_channels/2) {
+    //channel+=info->num_channels;
+  //}
 
   switch (channel) {
-    case CHAN_INP_PULSER:
-      strncpy(name, "Pulser", NAME_LENGTH-1);
+    case TRIGGER_0_OUT:
+      strncpy(name, "Trigger 0 (Hz)", NAME_LENGTH-1);
       break;
-    case CHAN_OUT_RE:
-      strncpy(name, "reserved", NAME_LENGTH-1);
+    case TRIGGER_1_OUT:
+      strncpy(name, "Trigger 1 (Hz)", NAME_LENGTH-1);
       break;
-    case CHAN_OUT_FREQUENCY:
-      strncpy(name, "Channel Frequency", NAME_LENGTH-1);
+    case TRIGGER_2_OUT:
+      strncpy(name, "Trigger 2 (Hz)", NAME_LENGTH-1);
       break;
-    case NAN:
-      strncpy(name, "NAN", NAME_LENGTH-1);
+    case SUM_OUT:
+      strncpy(name, "Sum (Hz)", NAME_LENGTH-1);
       break;
     default:
-      //snprintf(name,"");
       memset(name, 0, NAME_LENGTH);
+      snprintf(name, NAME_LENGTH-1, "Channel %d Hz", channel);
       //return FE_ERR_DRIVER;
   }
 
   //printf("dd_arduino_fan_pid_get_label: chan=%d, Name=``%s''\n",channel,name);
-  info->get_label_calls++;
+  //info->get_label_calls++;
   return FE_SUCCESS;
 }
 

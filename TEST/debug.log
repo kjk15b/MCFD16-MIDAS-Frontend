@@ -1,0 +1,32 @@
+Frontend name          :     feMCFD
+Event buffer size      :     20480
+User max event size    :     2048
+User max frag. size    :     10240
+# of events per buffer :     10
+
+Mesytec MCFD16:
+dd_mcfd16_init: channels = 2
+Sending initialization commands to MCFD16
+BD_PUTS status = 7
+str=_ra 19
+_		try=0		len=6
+str=_
+_		try=1		len=2
+str=_sum rate : 2.500 MHz
+_		try=2		len=22
+str=_mcfd-16>_		try=3		len=0
+str=__		try=4		len=0
+str=__		try=5		len=0
+str=__		try=6		len=0
+str=__		try=7		len=0
+str=__		try=8		len=0
+str=__		try=9		len=0
+Received break. Aborting...
+str=__		try=10		len=0
+str=__		try=11		len=0
+str=__		try=12		len=0
+str=__		try=13		len=0
+str=__		try=14		len=0
+...
+1[feMCFD,ERROR] [mfe.cxx:759:initialize_equipment,ERROR] Equipment Mesytec MCFD16 disabled because of Driver error
+[feMCFD,INFO] Slow control equipment initialized

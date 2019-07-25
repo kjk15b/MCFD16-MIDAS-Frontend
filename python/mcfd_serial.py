@@ -10,6 +10,21 @@ import serial # NO LONGER MAINTAINED, find alternative?
 import re
 import datetime
 import time
+import matplotlib.pyplot as plt
+
+# GLOBAL VARIABLES
+chn_frq = [['''Chn 0'''], ['''Chn 1'''], ['''Chn 2'''], ['''Chn 3'''], ['''Chn 4'''], # records all of the channel frequencies for later analysis
+	   ['''Chn 5'''], ['''Chn 6'''], ['''Chn 7'''], ['''Chn 8'''], ['''Chn 9'''],
+	   ['''Chn 10'''], ['''Chn 11'''], ['''Chn 12'''], ['''Chn 13'''], ['''Chn 14'''],
+	   ['''Chn 15'''], ['''Trg 0'''], ['''Trg 1'''], ['''Trg 2'''], ['''Total''']]
+
+tmp_frq = [['''Chn 0'''], ['''Chn 1'''], ['''Chn 2'''], ['''Chn 3'''], ['''Chn 4'''], # saves only the past N number of events for real-time analysis
+	   ['''Chn 5'''], ['''Chn 6'''], ['''Chn 7'''], ['''Chn 8'''], ['''Chn 9'''],
+	   ['''Chn 10'''], ['''Chn 11'''], ['''Chn 12'''], ['''Chn 13'''], ['''Chn 14'''],
+	   ['''Chn 15'''], ['''Trg 0'''], ['''Trg 1'''], ['''Trg 2'''], ['''Total''']]
+tmp_index = 0
+
+tmp_time_log = ['', '', '', '', '', '', '', '', '', ''] # to keep track of timestamps for posting, used for overwritting xticks in mpl
 
 class MCFD():
   def __init__ (self, dev):
@@ -130,6 +145,7 @@ class MCFD():
     self.clear()
   
   def initialize(self): # initialize the MCFD 16
+    #cmd = ["sp ", "sg "] TODO: make this all in a cmd for loop...
     self.set_Bandwidth_Limit(0) # leave bandwidth limit off...
     self.set_CFD(1)
     self.set_Mask(0) # unmask all registers
@@ -168,6 +184,51 @@ class MCFD():
       self.set_Pairings(i, 255) # global pairing
     return 1
   
+  def mcfd_get(self): # fetch data from the MCFD-16
+    chn_header = re.compile('rate channel [0-9]*:|trigger rate[0-9]*:|sum rate :') # pattern to search for headers
+    chn_units = re.compile('Hz|kHz|MHz')
+    factor = 1 # dividing factor to have all units be in kHz
+    for i in range(20):
+      self.dev.write("ra {0}".format(i)+"\r\n") # request data
+      for k in range(5):
+	line = self.dev.readline()
+	match_chn_header = re.search('rate channel [0-9]*:|trigger rate[0-9]*:|sum rate :', line)
+	match_chn_units = re.search('Hz|kHz|MHz', line)
+	if match_chn_header:
+	  if match_chn_units:
+	    
+	    if re.search('Hz', line) and not re.search('k', line):
+	      factor = 1000 # unit is in Hz
+	    elif re.search('MHz', line):
+	      factor = 0.001 # unit is in MHz
+	    elif re.search('kHz', line):
+	      factor = 1
+	    else:
+	      factor = 1 # default catch all... to be changed later
+	    
+	    line = re.sub(chn_header, '', line) # omit the header
+	    print "Channel: {0}\t{1}".format(i, line) # debugging, print what we found and extracted
+	    line = re.sub(chn_units, '', line) # cut the units
+	    try:
+	      chn_frq[i].append(float(line)) # try to see if we cut correctly
+	      tmp_frq[i][tmp_index] = float(line) # super dangerous, but I do not know how else to implement without knowing the index of chn_frq...
+	    except:
+	      print 'Error, return not cut properly, could not convert string to float\n--------------------\nError: {0}'.format(line)
+	      return -1
+    tmp_index = (tmp_index + 1) % 10 # lets say we save the last 10 values?...
+    return tmp_index # return the index so I know when to call the plotter to update image...
+  
+  def build_event(self):
+    for i in range(20):
+      for j in range(10): # make an array of 20X100 to store temporary data into to present visually
+	tmp_frq[i].append(0) # dummy data to only hold ten values
+	    
+  def refresh_tmp():
+    for i in range(20):
+      for j in range(10):
+	tmp_frq[i][j] = 0 # reset values on the 
+  
   def exit(self):
+    print "-------------------\nClosing the connection\n-------------------\n"
     self.dev.close()
     return -1
