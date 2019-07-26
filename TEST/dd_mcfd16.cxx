@@ -35,20 +35,42 @@ using namespace std;
 
 
 #define DD_MCFD_SETTINGS_STR "\
-pulser = INT : 1\n\
 Read Period ms = FLOAT : 200\n\
+Register Mask = INT : 0\n\
+Channel Threshold = INT[16] :\n\
+[0] 0\n\
+[1] 0\n\
+[2] 0\n\
+[3] 0\n\
+[4] 0\n\
+[5] 0\n\
+[6] 0\n\
+[7] 0\n\
+[8] 0\n\
+[9] 0\n\
+[10] 0\n\
+[11] 0\n\
+[12] 0\n\
+[13] 0\n\
+[14] 0\n\
+[15] 0\n\
+Trigger Source = INT[3] :\n\
+[0] 1\n\
+[1] 1\n\
+[2] 1\n\
+Set Coincidence = INT : 36\n\
 "
 
 string removeChar (std::string str) {
     int i=str.length();
     int k=0;
     while (k<=i) {
-      cout << " { " << str[k];
+      //cout << " { " << str[k];
       if ((str[k] > 57 || ((str[k] < 48) && str[k] != 46)) && str[k] != 0){
-	cout << "Found value: 0x" << std::hex << (int) str[k] << std::dec;
+	//cout << "Found value: 0x" << std::hex << (int) str[k] << std::dec;
 	str[k]=0x20;
       }
-      cout << " } ";
+      //cout << " } ";
       k++;
     }
     cout << endl;
@@ -66,13 +88,13 @@ string removeSpaces (std::string str) {
 }
 
 string shiftDigits (std::string str) {
-  cout << "--------------------\n";
+  //cout << "--------------------\n";
   int i=str.length();
   int k=0;
   while (k<=i-3) { // seems to always have 3 initial blank spaces and 3 final blank spaces
     if (str[k]==0)
       str[k]=str[k+3];
-    cout << " { " << str[k] << " } ";
+    //cout << " { " << str[k] << " } ";
     k++;
   }
   return str; // may have to work on ending condition
@@ -91,28 +113,28 @@ float cut_string_frq(std::string str) {
   
   smatch m;
   if (regex_search(str, m, chn_header)) { // check for event header
-    cout << "Found channel... " << endl << "Cutting channel..." << endl;
+    //cout << "Found channel... " << endl << "Cutting channel..." << endl;
     str=std::regex_replace(str, chn_header, ""); // cut the header
-    cout << str << endl;
+    //cout << str << endl;
     found_header=true;
   }
   else if (regex_search(str, m, trg_header)) {
-    cout << "Found trigger... " << endl << "Cutting trigger..." << endl;
+    //cout << "Found trigger... " << endl << "Cutting trigger..." << endl;
     str=std::regex_replace(str, trg_header, ""); // cut the header
-    cout << str << endl;
+    //cout << str << endl;
     found_header=true;
   }
   else if (regex_search(str, m, sum_header)) {
-    cout << "Found sum rates... " << endl << "Cutting sum rates..." << endl;
+    //cout << "Found sum rates... " << endl << "Cutting sum rates..." << endl;
     str=std::regex_replace(str, sum_header, ""); // cut the header
-    cout << str << endl;
+    //cout << str << endl;
     found_header=true;
   }
   else
     found_header=false;
   if (found_header==true){
     if (regex_search(str, m, chn_units)) {
-      cout << "Found units... " << endl << "Cutting units..." << endl;
+      //cout << "Found units... " << endl << "Cutting units..." << endl;
       if (regex_search(str, m, khz))
 	div=1000; // in the units we want
       else if (regex_search(str, m, hz))
@@ -124,7 +146,7 @@ float cut_string_frq(std::string str) {
       str=removeChar(str);
       //str=shiftDigits(str);
       //str=removeChar(str);
-      cout << "Frequency:\t\t" << frq << "\nString=\t\t{" << str.c_str() << "}" << endl;
+      //cout << "Frequency:\t\t" << frq << "\nString=\t\t{" << str.c_str() << "}" << endl;
       
       frq=::atof(str.c_str());
       //frq=strtof(str.c_str(), 0);
@@ -142,8 +164,13 @@ float mcfd_get (std::string str) { // fetch our string and concatenate it to pas
   smatch m;
   regex cmd_header("ra [0-9]*");
   regex mcfd_ret("mcfd-16>");
+  regex chn_header("rate channel [0-9]*: ");
+  regex trg_header("trigger rate[0-9]*: ");
+  regex sum_header("sum rate : ");
+  bool found_event=false;
+  
   cout << "\n-------------------\n";
-  for (size_t i=0;i<str.length();++i) {
+  for (size_t i=0;i<str.length();++i) { // TODO: check for cases where the cmd_header is not present... cut tail...
     if (str[i]=='\n')
       str[i]=0x20;
     if (str[i]=='\r') // remove all characters that cause us problems
@@ -151,24 +178,40 @@ float mcfd_get (std::string str) { // fetch our string and concatenate it to pas
     //cout << " { " << cpy_str[i] << " } ";
   }
   //cout << "\n--------------------\nReceived:\n\n" << str << "\n--------------------\n";
-  if (regex_search(str, m, cmd_header)){
+  if (regex_search(str, m, cmd_header)) {
     //cout << "Found instruction word" << endl;
-    str=std::regex_replace(str, cmd_header, "");
+    str=std::regex_replace(str, cmd_header, ""); // only cut the cmd because cut_string cares about everything else
     //cout << "str=\t\t" << str << endl;
+    found_event=true;
+  }
+  else if (regex_search(str, m, chn_header))
+    found_event=true; // we found a channel ID
+  else if (regex_search(str, m, trg_header))
+    found_event=true; // we found a trigger
+  else if (regex_search(str, m, sum_header))
+    found_event=true; // we found the sum of rates
+  else
+    found_event=false; // we could not find anything meaningful
+  
+  if (found_event) { // If we found a channel or event command, there should be the trailing edge mcfd-16> return
     if (regex_search(str, m, mcfd_ret)) {
-      //cout << "Found trailing return" << endl;
-      str=std::regex_replace(str, mcfd_ret, "");
-      //cout << "str=\t\t" << str << endl;
-      return cut_string_frq(str);
+	//cout << "Found trailing return" << endl;
+	str=std::regex_replace(str, mcfd_ret, "");
+	//cout << "str=\t\t" << str << endl;
+	return cut_string_frq(str);
       }
-    }
+  }
+    
   return -1; // something did not go right...
 }
 
 
 typedef struct {
-  int pulser; // test pulser status
   int readPeriod_ms; // maybe need?
+  int register_mask;
+  int channel_threhold[16];
+  int trigger_source[3];
+  int set_coincidence;
 //   bool manual_control; // maybe...
 } DD_MCFD_SETTINGS;
 
@@ -183,9 +226,6 @@ typedef struct {
   HNDLE hkey;                  // ODB key for bus driver info
 
 
-  float chn_0_frq; // 0-15 standard channels 16-18 are trig0,1,2 and 19 is total 
-  float chn_1_frq;
-  
   float *array;                // Most recent measurement or NaN, one for each channel
   DWORD *update_time;          // seconds
 
@@ -196,6 +236,19 @@ typedef struct {
 
 // Should probably call this every time the fe is started.  This would log PID parameters to the midas.log so they can be recovered later...
 //int recall_pid_settings(bool saveToODB=false); // read from Arduino, print to messages/stdout, optionally save to ODB
+
+int mcfd_apply_new_setting(char* cmd, DD_MCFD_INFO * info) { // Faster? try not to write to everything after intializing setup...
+  char str[256];
+  BD_PUTS(cmd); // only need a few BD_PUTS, do not really care about returns in this case because these registers are really
+  // write only
+  for (int tries=0; tries<15; ++tries) {
+    int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
+    //if (len==0 && tries > 4) break;
+    //printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
+  }
+  
+  return FE_SUCCESS; // TODO: make sure things applied okay...
+}
 
 
 int mcfd_apply_settings(DD_MCFD_INFO* info) {
@@ -208,9 +261,41 @@ int mcfd_apply_settings(DD_MCFD_INFO* info) {
   memset(cmd, 0, sizeof(cmd));
   // want to write for loops to automate the r / w process...
   
-  snprintf(cmd, sizeof(cmd)-1, "p%d\r\n", info->settings.pulser); // set pulser
+  snprintf(cmd, sizeof(cmd)-1, "sc %d\r\n", info->settings.set_coincidence); // set coincidence timing
+  BD_PUTS(cmd); // only need a few BD_PUTS, do not really care about returns in this case because these registers are really
+  // write only
+  for (int tries=0; tries<15; ++tries) {
+    int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
+    //if (len==0 && tries > 4) break;
+    //printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
+  }
+  
+  snprintf(cmd, sizeof(cmd)-1, "sk %d\r\n", info->settings.register_mask); // set masking
   BD_PUTS(cmd);
-  BD_GETS(str, sizeof(str)-1, "\r\n", DEFAULT_TIMEOUT); // read echo
+  for (int tries=0; tries<15; ++tries) {
+    int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
+    //if (len==0 && tries > 4) break;
+    //printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
+  }
+  
+  for (int i=0;i<16;++i) {
+    if (i < 3) {
+      snprintf(cmd, sizeof(cmd)-1, "tr %d %d\r\n", i, info->settings.trigger_source[i] ); // set trigger config
+      BD_PUTS(cmd);
+      for (int tries=0; tries<15; ++tries) {
+	int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
+	//if (len==0 && tries > 4) break;
+	//printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
+      }
+    }
+    snprintf(cmd, sizeof(cmd)-1, "st %d %d\r\n", i, info->settings.channel_threhold[i]); // set thresholds
+    BD_PUTS(cmd);
+    for (int tries=0; tries<15; ++tries) {
+      int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
+      //if (len==0 && tries > 4) break;
+      //printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
+    }
+  }
   
   return FE_SUCCESS; // TODO: make sure things applied okay...
 }
@@ -219,6 +304,8 @@ int mcfd_apply_settings(DD_MCFD_INFO* info) {
 void mcfd_settings_updated(INT hDB, INT hkey, void* vinfo)
 { // simple routines to iterate through to check for changes in the ODB...
   printf("Settings updated\n");
+  string str;
+  string crrg="\r\n";
 
   DD_MCFD_INFO* info = (DD_MCFD_INFO*) vinfo;
 
@@ -230,13 +317,46 @@ void mcfd_settings_updated(INT hDB, INT hkey, void* vinfo)
     changed=true;
   }
 
-  if (info->settingsIncoming.pulser != info->settings.pulser) {
-    std::cout << "   pulser changed from ``" << info->settings.pulser << "'' to ``" << info->settingsIncoming.pulser << "''" << std::endl;
-    info->settings.pulser = info->settingsIncoming.pulser;
+  if (info->settingsIncoming.register_mask != info->settings.register_mask) {
+    std::cout << "   Register Mask changed from ``" << info->settings.register_mask << "'' to ``" << info->settingsIncoming.register_mask << "''" << std::endl;
+    info->settings.register_mask = info->settingsIncoming.register_mask;
+    changed=true;
+    str="sk " + std::to_string(info->settings.register_mask) + crrg;
+  }  
+  
+  if (info->settingsIncoming.set_coincidence != info->settings.set_coincidence) {
+    std::cout << "   Global Coincidence changed from ``" << info->settings.set_coincidence << "'' to ``" << info->settingsIncoming.set_coincidence << "''" << std::endl;
+    info->settings.set_coincidence = info->settingsIncoming.set_coincidence;
+    str="sc " +std::to_string(info->settings.set_coincidence) + crrg;
     changed=true;
   }
   
-  if (changed) mcfd_apply_settings(info); // TODO: only apply the changed ones...
+  for (int i=0; i<16; ++i) {
+    if (i < 3) {
+      if (info->settingsIncoming.trigger_source[i] != info->settings.trigger_source[i]) {
+      std::cout << "   Trigger Source " << i << " changed from ``" << info->settings.trigger_source[i] << "'' to ``" << info->settingsIncoming.trigger_source[i] << "''" << std::endl;
+      info->settings.trigger_source[i] = info->settingsIncoming.trigger_source[i];
+      changed=true;
+      str="tr " + std::to_string(i);
+      str=str + " " + std::to_string(info->settings.trigger_source[i]); // compiler seems to get angry when I try to do
+      str=str + crrg; // everything on the same line
+      }
+    }
+    if (info->settingsIncoming.channel_threhold[i] != info->settings.channel_threhold[i]) {
+      std::cout << "   Channel " << i << " Threshold changed from ``" << info->settings.channel_threhold[i] << "'' to ``" << info->settingsIncoming.channel_threhold[i] << "''" << std::endl;
+      info->settings.channel_threhold[i] = info->settingsIncoming.channel_threhold[i];
+      changed=true;
+      str="st " + std::to_string(i);
+      str=str + " " + std::to_string(info->settings.channel_threhold[i]); // compiler seems to get angry when I try to do
+      str=str + crrg; // everything on the same line
+    }
+  }
+  
+  char * cmd = new char[str.size() + 1]; // char to pass to our function later on...
+  std::copy(str.begin(), str.end(), cmd);
+  cmd[str.size()] = '\0';
+  
+  if (changed) mcfd_apply_new_setting(cmd, info); // TODO: only apply the changed one...
 }
 
 
@@ -262,8 +382,6 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
     info->update_time[i] = 0;
   }
   
-  info->chn_0_frq = ss_nan();
-  info->chn_1_frq = ss_nan();
   info->get_label_calls=0;  
   
   info->num_channels = channels;  // TODO: make sure it is 19 channel readout
@@ -312,6 +430,7 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
     int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
     //if (len==0 && tries > 4) break;
     input << str;
+    //printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
   }
   out_string=input.str(); // collect in string format...
   read=mcfd_get(out_string);
@@ -333,7 +452,7 @@ INT dd_mcfd16_init(HNDLE hkey, void **pinfo, INT channels, INT(*bd)(INT cmd, ...
 
   mcfd_apply_settings(info); // settings are probably not functional, but they appear to be getting there...
   //status = info->bd(CMD_EXIT, info->bd_info);
-  printf("...\n%d", status);
+  //printf("...\n%d", status);
   
   return FE_SUCCESS;
 }
@@ -359,8 +478,8 @@ INT dd_mcfd_exit(DD_MCFD_INFO * info)
 
 INT dd_mcfd_set(DD_MCFD_INFO * info, INT channel, int value) // TODO: make sure value is int everywhere...
 {
-  if (channel < 0 || channel >= info->num_channels)
-    return FE_ERR_DRIVER;
+  if (channel < 0 || channel >= info->num_channels) // This function may not be necessary since everything is in
+    return FE_ERR_DRIVER; // the settings now...
 
   channel+=info->num_channels;
 
@@ -422,27 +541,37 @@ INT dd_mcfd_get(DD_MCFD_INFO * info, INT channel, float *pvalue)
   for (tries=0; tries<15; ++tries) {
     int len = BD_GETS(str, sizeof(str), "\n", SHORT_TIMEOUT); // will have to format this for MCFD, will need heavy testing
     //if (len==0 && tries > 4) break;
-    printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
+    //printf("str=%s\t\t\ttry=%d\t\t\tlen=\t\t\t%d\n", str, tries, len);
     input << str;
   }
   
   out_string=input.str(); // collect in string format...
-  cout << " { " << out_string << " } " << "\n { " << out_string.c_str() << " } " << endl;
+  //cout << " { " << out_string << " } " << "\n { " << out_string.c_str() << " } " << endl;
   frq = mcfd_get(out_string); // try to get the data...
   cout << "Frequency: " << frq << endl;
 
   switch (channel) {
     case TRIGGER_0_OUT:
       *pvalue = frq;
-      info->chn_0_frq = frq;
-      printf("Channel:\t%d\tFrequency:\t%f\n", channel, frq);
+      //info->chn_0_frq = frq;
+      printf("Trigger:\t%d\tFrequency:\t%f\n", channel, frq);
       break;
     case TRIGGER_1_OUT:
       *pvalue = frq;
-      info->chn_1_frq = frq;
-      printf("Channel:\t%d\tFrequency:\t%f\n", channel, frq);
+      //info->chn_1_frq = frq;
+      printf("Trigger:\t%d\tFrequency:\t%f\n", channel, frq);
+      break;
+    case TRIGGER_2_OUT:
+      *pvalue = frq;
+      printf("Trigger:\t%d\tFrequency:\t%f\n", channel, frq);
+      break;
+    case SUM_OUT:
+      *pvalue = frq;
+      //info->chn_1_frq = frq;
+      printf("Sum Rates\tFrequency:\t%f\n", frq);
+      break;
     default:
-      *pvalue = ss_nan();
+      *pvalue = frq;
       break;
   }
 

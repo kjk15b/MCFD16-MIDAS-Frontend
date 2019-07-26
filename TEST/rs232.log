@@ -195629,3 +195629,22123 @@ getstr
 getstr 
 : channel 0: 0 Hz
 
+puts: ra 19
+
+getstr 
+: 
+
+puts: sc 36
+
+puts: sk 0
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: c 36
+
+
+getstr 
+: k 0
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: t 0 0
+
+
+getstr 
+: r 1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: t 2 0
+
+
+getstr 
+: t 3 0
+
+
+getstr 
+: t 4 0
+
+
+getstr 
+: st5 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: t 7 0
+
+
+getstr 
+: s 8 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: st 10 0
+
+
+getstr 
+: t 11 0
+
+
+getstr 
+: t 12 0
+
+
+getstr 
+: t 13 0
+
+
+getstr 
+: t 14 0
+
+
+getstr 
+: t 15 0
+
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: sc 36
+
+puts: sk 0
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: c 36
+
+
+getstr 
+: k 0
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: st 0 0
+
+
+getstr 
+: r 1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: t 2 0
+
+
+getstr 
+: t 3 0
+
+
+getstr 
+: t 4 0
+
+
+getstr 
+: t 5 0
+
+
+getstr 
+: t 6 0
+
+
+getstr 
+: 7 0
+
+
+getstr 
+: t 8 0
+
+
+getstr 
+: t 9 0
+
+
+getstr 
+: t 10 0
+
+
+getstr 
+: t 11 0
+
+
+getstr 
+: t 12 0
+
+
+getstr 
+:  13 0
+
+
+getstr 
+: s 14 0
+
+
+getstr 
+: s 15 0
+
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: sc 36
+
+puts: sk 0
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: c 36
+
+
+getstr 
+: k 0
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: t 0 0
+
+
+getstr 
+: r 1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: t 2 0
+
+
+getstr 
+: s 3 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: t 5 0
+
+
+getstr 
+: s 6 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: t 8 0
+
+
+getstr 
+: t 9 0
+
+
+getstr 
+: t 10 0
+
+
+getstr 
+: st 1 0
+
+
+getstr 
+: st 2 0
+
+
+getstr 
+: t 13 0
+
+
+getstr 
+: t 14 0
+
+
+getstr 
+: st 15 0
+
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: sc 36
+
+puts: sk 0
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: c 36
+
+
+getstr 
+: k 0
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: t 0 0
+
+
+getstr 
+: r 1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: t 2 0
+
+
+getstr 
+: t 3 0
+
+
+getstr 
+: t 4 0
+
+
+getstr 
+: t 5 0
+
+
+getstr 
+: 
+
+
+getstr 
+: t 7 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: t 9 0
+
+
+getstr 
+: s 10 0
+
+
+getstr 
+: st 11 0
+
+
+getstr 
+: t 12 0
+
+
+getstr 
+: t 13 0
+
+
+getstr 
+: t 14 0
+
+
+getstr 
+: t 15 0
+
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: sc 36
+
+puts: sk 255
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: c 36
+
+
+getstr 
+: k 255
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: t 0 0
+
+
+getstr 
+: tr1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: st 2 0
+
+
+getstr 
+: t 3 0
+
+
+getstr 
+: t 4 0
+
+
+getstr 
+: t 5 0
+
+
+getstr 
+: t 6 0
+
+
+getstr 
+: t 7 0
+
+
+getstr 
+: t 8 0
+
+
+getstr 
+: t 9 0
+
+
+getstr 
+: t 10 0
+
+
+getstr 
+: t 11 0
+
+
+getstr 
+: t 12 0
+
+
+getstr 
+: t 13 0
+
+
+getstr 
+: t 14 0
+
+
+getstr 
+: t 15 0
+
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: sc 36
+
+puts: sk 0
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: c 36
+
+
+getstr 
+: sk 0
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: t 0 0
+
+
+getstr 
+: r 1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: t 2 0
+
+
+getstr 
+: t 3 0
+
+
+getstr 
+: t 4 0
+
+
+getstr 
+: t 5 0
+
+
+getstr 
+: t 6 0
+
+
+getstr 
+: t 7 0
+
+
+getstr 
+: t 8 0
+
+
+getstr 
+: t 9 0
+
+
+getstr 
+: t 10 0
+
+
+getstr 
+: t 11 0
+
+
+getstr 
+: t 12 0
+
+
+getstr 
+: t 13 0
+
+
+getstr 
+: t 14 0
+
+
+getstr 
+: t 15 0
+
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: um rate : 0 Hz
+
+puts: sc 36
+
+puts: sk 0
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: sc 36
+
+
+getstr 
+: k 0
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: st 0 0
+
+
+getstr 
+: r 1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: t2 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: t 4 0
+
+
+getstr 
+: s 5 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: t 7 0
+
+
+getstr 
+: s 8 0
+
+
+getstr 
+: st9 0
+
+
+getstr 
+: t 10 0
+
+
+getstr 
+: t 11 0
+
+
+getstr 
+: st 12 0
+
+
+getstr 
+: t 13 0
+
+
+getstr 
+: t 14 0
+
+
+getstr 
+: t 15 0
+
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: annel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: l 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: annel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: hannel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: te1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: ate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: nnel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+:  13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: er rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nnel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: nnel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: el 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: hannel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: e channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: r rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: gger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: el 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: el 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: el 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: l 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: annel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: e channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: el 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: el 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: el 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: 5: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: r rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: ate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: hannel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: nel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: nnel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: gger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: nnel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nnel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: l 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: l 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+:  channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: annel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: gger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: e channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: annel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: nnel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: hannel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: hannel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: el 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: el 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: te channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: el 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: ger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 866 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.866 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: nnel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: nel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nnel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: el 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: annel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: nnel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: nnel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: l 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: trigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: rate : 8.866 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: l 0: 8.866 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: l 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: nnel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: nel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: el 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: ger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  rate : 8.867 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: el 0: 8.866 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: el 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: er rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 8.867 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.866 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: l 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: nel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: e channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: el 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: nel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: : 8.867 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: .867 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: nel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: el 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: l 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: te channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: trigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: : 8.868 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.867 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: l 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: nnel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: e channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nnel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+:  13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: rate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: hannel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 8 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 8.868 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: hannel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: l 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: e channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: nnel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: annel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: annel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: e1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: ger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: ate : 8.869 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: e channel 0: 8.868 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  8: 0 Hz
+
+puts: sc 36
+
+puts: sk 255
+
+puts: tr 0 1
+
+puts: st 0 0
+
+puts: tr 1 1
+
+puts: st 1 0
+
+puts: tr 2 1
+
+puts: st 2 0
+
+puts: st 3 0
+
+puts: st 4 0
+
+puts: st 5 0
+
+puts: st 6 0
+
+puts: st 7 0
+
+puts: st 8 0
+
+puts: st 9 0
+
+puts: st 10 0
+
+puts: st 11 0
+
+puts: st 12 0
+
+puts: st 13 0
+
+puts: st 14 0
+
+puts: st 15 0
+
+getstr 
+: c 36
+
+
+getstr 
+: k 255
+
+
+getstr 
+: r 0 1
+
+
+getstr 
+: t 0 0
+
+
+getstr 
+: r 1 1
+
+
+getstr 
+: t 1 0
+
+
+getstr 
+: r 2 1
+
+
+getstr 
+: t 2 0
+
+
+getstr 
+: st  0
+
+
+getstr 
+: t 4 0
+
+
+getstr 
+: s 5 0
+
+
+getstr 
+: st6 0
+
+
+getstr 
+: st 7 0
+
+
+getstr 
+: t 8 0
+
+
+getstr 
+: t9 0
+
+
+getstr 
+: t 10 0
+
+
+getstr 
+: t 11 0
+
+
+getstr 
+: st 12 0
+
+
+getstr 
+: t 13 0
+
+
+getstr 
+: t 14 0
+
+
+getstr 
+: t 15 0
+
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: sc 36
+
+getstr 
+: sc 36
+
+getstr 
+: 
+
+puts: sk 0
+
+getstr 
+: k 0
+
+getstr 
+: 
+
+puts: tr 0 1
+
+getstr 
+: tr 0 1
+
+getstr 
+: 
+
+puts: st 0 0
+
+getstr 
+: t 0 0
+
+getstr 
+: 
+
+puts: tr 1 1
+
+getstr 
+: tr 1 1
+
+getstr 
+: 
+
+puts: st 1 0
+
+getstr 
+: t 1 0
+
+getstr 
+: 
+
+puts: tr 2 1
+
+getstr 
+: r 2 1
+
+getstr 
+: 
+
+puts: st 2 0
+
+getstr 
+: st 2 0
+
+getstr 
+: 
+
+puts: st 3 0
+
+getstr 
+: t 3 0
+
+getstr 
+: 
+
+puts: st 4 0
+
+getstr 
+: st 4 0
+
+getstr 
+: 
+
+puts: st 5 0
+
+getstr 
+: st 5 0
+
+getstr 
+: 
+
+puts: st 6 0
+
+getstr 
+: t 6 0
+
+getstr 
+: 
+
+puts: st 7 0
+
+getstr 
+: st 7 0
+
+getstr 
+: 
+
+puts: st 8 0
+
+getstr 
+: st 8 0
+
+getstr 
+: 
+
+puts: st 9 0
+
+getstr 
+: st 9 0
+
+getstr 
+: 
+
+puts: st 10 0
+
+getstr 
+: t 10 0
+
+getstr 
+: 
+
+puts: st 11 0
+
+getstr 
+: st 11 0
+
+getstr 
+: 
+
+puts: st 12 0
+
+getstr 
+: st 12 0
+
+getstr 
+: 
+
+puts: st 13 0
+
+getstr 
+: st 13 0
+
+getstr 
+: 
+
+puts: st 14 0
+
+getstr 
+: t 14 0
+
+getstr 
+: 
+
+puts: st 15 0
+
+getstr 
+: st 15 0
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+puts: ra 19
+
+getstr 
+: z
+
+puts: sc 36
+
+getstr 
+: c 36
+
+getstr 
+: 
+
+getstr 
+: set global coincidence time to: 36 (= 46 ns)
+
+puts: sk 0
+
+getstr 
+: k 0
+
+getstr 
+: 
+
+getstr 
+: mask register set to: 0
+
+puts: tr 0 1
+
+getstr 
+: tr 0 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig0 set to: 1
+
+puts: st 0 0
+
+getstr 
+: t 0 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 0 set to 0
+
+puts: tr 1 1
+
+getstr 
+: tr 1 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig1 set to: 1
+
+puts: st 1 0
+
+getstr 
+: t 1 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 1 set to 0
+
+puts: tr 2 1
+
+getstr 
+: r 2 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig2 set to: 1
+
+puts: st 2 0
+
+getstr 
+: st 2 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 2 set to 0
+
+puts: st 3 0
+
+getstr 
+: st 3 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 3 set to 0
+
+puts: st 4 0
+
+getstr 
+: st 4 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 4 set to 0
+
+puts: st 5 0
+
+getstr 
+: st 5 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 5 set to 0
+
+puts: st 6 0
+
+getstr 
+: st 6 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 6 set to 0
+
+puts: st 7 0
+
+getstr 
+: st 7 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 7 set to 0
+
+puts: st 8 0
+
+getstr 
+: t 8 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 8 set to 0
+
+puts: st 9 0
+
+getstr 
+: t 9 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 9 set to 0
+
+puts: st 10 0
+
+getstr 
+: t 10 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 10 set to 0
+
+puts: st 11 0
+
+getstr 
+: st 11 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 11 set to 0
+
+puts: st 12 0
+
+getstr 
+: st 12 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 12 set to 0
+
+puts: st 13 0
+
+getstr 
+: st 13 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 13 set to 0
+
+puts: st 14 0
+
+getstr 
+: st 14 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 14 set to 0
+
+puts: st 15 0
+
+getstr 
+: st 15 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 15 set to 0
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: el 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: nel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: rate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: annel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 8.870 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.870 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: hannel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: e channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: nel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: e channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 8.870 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: l 0: 8.870 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: e channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: annel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: el 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: te channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: annel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: hannel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: te channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: te2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 8.870 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.870 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: hannel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: hannel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: el 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: hannel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: el 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: el 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: igger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: e1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 8.870 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: te channel 0: 8.870 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: hannel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: annel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: te channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: : 8.870 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  channel 0: 8.870 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: annel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: annel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: l 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: l 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: l 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: l 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: e channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: gger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 8.871 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: l 0: 8.871 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: el 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: annel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: el 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: trigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: er rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 8.871 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.871 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: l 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: sc 36
+
+getstr 
+: sc 36
+
+getstr 
+: 
+
+getstr 
+: set global coincidence time to: 36 (= 46 ns)
+
+puts: sk 255
+
+getstr 
+: sk 255
+
+getstr 
+: 
+
+getstr 
+: mask register set to: 255
+
+puts: tr 0 1
+
+getstr 
+: r 0 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig0 set to: 1
+
+puts: st 0 0
+
+getstr 
+: st 0 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 0 set to 0
+
+puts: tr 1 1
+
+getstr 
+: r 1 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig1 set to: 1
+
+puts: st 1 0
+
+getstr 
+: st 1 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 1 set to 0
+
+puts: tr 2 1
+
+getstr 
+: r 2 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig2 set to: 1
+
+puts: st 2 0
+
+getstr 
+: st 2 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 2 set to 0
+
+puts: st 3 0
+
+getstr 
+: st 3 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 3 set to 0
+
+puts: st 4 0
+
+getstr 
+: st 4 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 4 set to 0
+
+puts: st 5 0
+
+getstr 
+: t 5 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 5 set to 0
+
+puts: st 6 0
+
+getstr 
+: st 6 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 6 set to 0
+
+puts: st 7 0
+
+getstr 
+: st 7 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 7 set to 0
+
+puts: st 8 0
+
+getstr 
+: st 8 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 8 set to 0
+
+puts: st 9 0
+
+getstr 
+: st 9 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 9 set to 0
+
+puts: st 10 0
+
+getstr 
+: t 10 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 10 set to 0
+
+puts: st 11 0
+
+getstr 
+: st 11 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 11 set to 0
+
+puts: st 12 0
+
+getstr 
+: st 12 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 12 set to 0
+
+puts: st 13 0
+
+getstr 
+: st 13 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 13 set to 0
+
+puts: st 14 0
+
+getstr 
+: t 14 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 14 set to 0
+
+puts: st 15 0
+
+getstr 
+: t 15 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 15 set to 0
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: e channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: trigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nnel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: nnel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: l 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: el 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: el 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: gger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: igger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: r rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: l 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: l 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: l 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: l 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: e channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: nel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: hannel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: e channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: e channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: el 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: m rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: nel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: nel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: nnel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: annel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: e channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: annel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: nnel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: e channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: hannel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: annel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: igger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: l 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: l 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: el 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: te channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: r rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: el 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: annel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: nnel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nnel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: hannel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: annel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: e channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: l 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: e channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: sum rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: te channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 12: 0 Hz
+
+puts: sc 36
+
+getstr 
+: c 36
+
+getstr 
+: 
+
+getstr 
+: set global coincidence time to: 36 (= 46 ns)
+
+puts: sk 0
+
+getstr 
+: k 0
+
+getstr 
+: 
+
+getstr 
+: mask register set to: 0
+
+puts: tr 0 1
+
+getstr 
+: tr 0 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig0 set to: 1
+
+puts: st 0 0
+
+getstr 
+: t 0 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 0 set to 0
+
+puts: tr 1 1
+
+getstr 
+: tr 1 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig1 set to: 1
+
+puts: st 1 0
+
+getstr 
+: t 1 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 1 set to 0
+
+puts: tr 2 1
+
+getstr 
+: tr 2 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig2 set to: 1
+
+puts: st 2 0
+
+getstr 
+: st 2 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 2 set to 0
+
+puts: st 3 0
+
+getstr 
+: st 3 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 3 set to 0
+
+puts: st 4 0
+
+getstr 
+: st 4 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 4 set to 0
+
+puts: st 5 0
+
+getstr 
+: t 5 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 5 set to 0
+
+puts: st 6 0
+
+getstr 
+: t 6 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 6 set to 0
+
+puts: st 7 0
+
+getstr 
+: st 7 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 7 set to 0
+
+puts: st 8 0
+
+getstr 
+: t 8 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 8 set to 0
+
+puts: st 9 0
+
+getstr 
+: t 9 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 9 set to 0
+
+puts: st 10 0
+
+getstr 
+: st 10 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 10 set to 0
+
+puts: st 11 0
+
+getstr 
+: t 11 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 11 set to 0
+
+puts: st 12 0
+
+getstr 
+: st 12 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 12 set to 0
+
+puts: st 13 0
+
+getstr 
+: t 13 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 13 set to 0
+
+puts: st 14 0
+
+getstr 
+: st 14 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 14 set to 0
+
+puts: st 15 0
+
+getstr 
+: t 15 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 15 set to 0
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: hannel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: er rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 8.871 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  channel 0: 8.871 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nnel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: te channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: l 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: 0: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: e channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: annel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 1 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.872 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: annel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: e channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: te1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 71 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: .871 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: hannel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: l 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: nnel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: hannel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: el 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: gger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 871 kHz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 8.871 kHz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: te channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: el 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: hannel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: hannel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: te channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: 0: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: sc 36
+
+getstr 
+: sc 36
+
+getstr 
+: 
+
+getstr 
+: set global coincidence time to: 36 (= 46 ns)
+
+puts: sk 255
+
+getstr 
+: sk 255
+
+getstr 
+: 
+
+getstr 
+: mask register set to: 255
+
+puts: tr 0 1
+
+getstr 
+: tr 0 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig0 set to: 1
+
+puts: st 0 0
+
+getstr 
+: st 0 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 0 set to 0
+
+puts: tr 1 1
+
+getstr 
+: r 1 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig1 set to: 1
+
+puts: st 1 0
+
+getstr 
+: st 1 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 1 set to 0
+
+puts: tr 2 1
+
+getstr 
+: tr 2 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig2 set to: 1
+
+puts: st 2 0
+
+getstr 
+: st 2 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 2 set to 0
+
+puts: st 3 0
+
+getstr 
+: st 3 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 3 set to 0
+
+puts: st 4 0
+
+getstr 
+: t 4 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 4 set to 0
+
+puts: st 5 0
+
+getstr 
+: st 5 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 5 set to 0
+
+puts: st 6 0
+
+getstr 
+: st 6 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 6 set to 0
+
+puts: st 7 0
+
+getstr 
+: st 7 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 7 set to 0
+
+puts: st 8 0
+
+getstr 
+: t 8 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 8 set to 0
+
+puts: st 9 0
+
+getstr 
+: st 9 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 9 set to 0
+
+puts: st 10 0
+
+getstr 
+: t 10 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 10 set to 0
+
+puts: st 11 0
+
+getstr 
+: st 11 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 11 set to 0
+
+puts: st 12 0
+
+getstr 
+: t 12 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 12 set to 0
+
+puts: st 13 0
+
+getstr 
+: st 13 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 13 set to 0
+
+puts: st 14 0
+
+getstr 
+: t 14 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 14 set to 0
+
+puts: st 15 0
+
+getstr 
+: st 15 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 15 set to 0
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: rate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: e0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: e : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: e channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: te channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: l 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: hannel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: annel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: e channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: annel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: l 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: e channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: nel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: nel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: hannel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: l 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: nel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: el 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: l 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: te channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: r rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: te2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: hannel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: el 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: te channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: annel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: nel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: e channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: hannel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: annel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: l 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: e channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: r rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: te channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: e channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: l 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: annel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: nnel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: hannel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: gger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: l 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nnel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: nnel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: rate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: annel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: 5: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: gger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: z
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: te channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: l 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: nnel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: hannel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: te channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: z
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: l 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: e channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: annel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: e channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: hannel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: e channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nnel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+:  12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: el 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: te channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: gger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: gger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: e channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: e channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: l 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: hannel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: el 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: er rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: er rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: hannel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: el 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: e channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: te channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: rate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: rate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: nel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: nel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: te channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: l 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: el 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: el 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: el 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: te channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: annel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: annel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: annel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: e0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: gger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: el 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: e channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: el 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: igger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: igger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: el 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: nnel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: e channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: e : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: e channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: nnel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: hannel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: hannel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: te channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: te channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: el 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: igger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: nel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: el 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: hannel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: el 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: e channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nnel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: te channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: te channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: 3: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: annel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: e : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: l 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: el 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: l 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: rate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: er rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: el 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: annel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: nel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: te channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: nel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: te channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: e2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: te channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: nnel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: annel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nnel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: nnel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+:  channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: nel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: nel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: te : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: el 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: el 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: te channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: hannel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: nnel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: el 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: l 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: e channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: rate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: el 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: el 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: te channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: annel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: nnel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: e channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: ger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: ger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: te channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: el 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: annel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: l 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: el 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: e1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+:  rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: annel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: el 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: e channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: trigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: 1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: hannel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: annel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: gger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: gger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: annel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: e channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: l 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: el 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+:  channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nnel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: el 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: te channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: el 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: hannel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: te channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: hannel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: ate channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: nnel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: 3: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: nel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: te channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: te2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nnel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: nel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: hannel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: l 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: te channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: nel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: nel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: r rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: nnel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: nnel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: ate channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: annel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: e channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: hannel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: annel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: rate channel 15: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  : 0 Hz
+
+puts: sc 36
+
+getstr 
+: c 36
+
+getstr 
+: 
+
+getstr 
+: set global coincidence time to: 36 (= 46 ns)
+
+puts: sk 255
+
+getstr 
+: k 255
+
+getstr 
+: 
+
+getstr 
+: mask register set to: 255
+
+puts: tr 0 1
+
+getstr 
+: r 0 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig0 set to: 1
+
+puts: st 0 0
+
+getstr 
+: t 0 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 0 set to 0
+
+puts: tr 1 1
+
+getstr 
+: tr 1 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig1 set to: 1
+
+puts: st 1 0
+
+getstr 
+: st 1 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 1 set to 0
+
+puts: tr 2 1
+
+getstr 
+: tr 2 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig2 set to: 1
+
+puts: st 2 0
+
+getstr 
+: t 2 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 2 set to 0
+
+puts: st 3 0
+
+getstr 
+: st 3 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 3 set to 0
+
+puts: st 4 0
+
+getstr 
+: st 4 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 4 set to 0
+
+puts: st 5 0
+
+getstr 
+: t 5 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 5 set to 0
+
+puts: st 6 0
+
+getstr 
+: st 6 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 6 set to 0
+
+puts: st 7 0
+
+getstr 
+: t 7 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 7 set to 0
+
+puts: st 8 0
+
+getstr 
+: st 8 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 8 set to 0
+
+puts: st 9 0
+
+getstr 
+: t 9 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 9 set to 0
+
+puts: st 10 0
+
+getstr 
+: st 10 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 10 set to 0
+
+puts: st 11 0
+
+getstr 
+: t 11 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 11 set to 0
+
+puts: st 12 0
+
+getstr 
+: st 12 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 12 set to 0
+
+puts: st 13 0
+
+getstr 
+: st 13 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 13 set to 0
+
+puts: st 14 0
+
+getstr 
+: st 14 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 14 set to 0
+
+puts: st 15 0
+
+getstr 
+: st 15 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 15 set to 0
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: el 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: nnel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: e channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: te channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: nnel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: e channel 0: 0 Hz
+
+puts: sk 0
+
+getstr 
+: k 0
+
+getstr 
+: 
+
+getstr 
+: mask register set to: 0
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: el 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: annel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: nel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: st 0 255
+
+getstr 
+: st 0 255
+
+getstr 
+: 
+
+getstr 
+: threshold channel 0 set to 255
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: l 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: el 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: annel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: nel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: nnel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: hannel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: te channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: nel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: te1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: hannel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: annel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: el 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: 2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: ate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+:  2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: nnel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+:  channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: ate channel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: nnel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: ate channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: ate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: ate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: e channel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: nnel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: ate channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: nel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: ate channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: ate channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: 0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: te1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: el 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: l 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: ate channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: e channel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: e channel 14: 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+:  15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: annel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: nnel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: l 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+: ate channel 7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: nel 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: nel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: rigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: um rate : 0 Hz
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: annel 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: z
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+:  channel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+: ate channel 4: 0 Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+: ate channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+:  channel 6: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  7: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+:  0 Hz
+
+puts: sc 36
+
+getstr 
+: sc 36
+
+getstr 
+: 
+
+getstr 
+: set global coincidence time to: 36 (= 46 ns)
+
+puts: sk 0
+
+getstr 
+: sk 0
+
+getstr 
+: 
+
+getstr 
+: mask register set to: 0
+
+puts: tr 0 1
+
+getstr 
+: r 0 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig0 set to: 1
+
+puts: st 0 255
+
+getstr 
+: st 0 255
+
+getstr 
+: 
+
+getstr 
+: threshold channel 0 set to 255
+
+puts: tr 1 1
+
+getstr 
+: tr 1 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig1 set to: 1
+
+puts: st 1 0
+
+getstr 
+: st 1 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 1 set to 0
+
+puts: tr 2 1
+
+getstr 
+: r 2 1
+
+getstr 
+: 
+
+getstr 
+: trigger source Trig2 set to: 1
+
+puts: st 2 0
+
+getstr 
+: st 2 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 2 set to 0
+
+puts: st 3 0
+
+getstr 
+: st 3 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 3 set to 0
+
+puts: st 4 0
+
+getstr 
+: t 4 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 4 set to 0
+
+puts: st 5 0
+
+getstr 
+: t 5 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 5 set to 0
+
+puts: st 6 0
+
+getstr 
+: st 6 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 6 set to 0
+
+puts: st 7 0
+
+getstr 
+: st 7 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 7 set to 0
+
+puts: st 8 0
+
+getstr 
+: st 8 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 8 set to 0
+
+puts: st 9 0
+
+getstr 
+: t 9 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 9 set to 0
+
+puts: st 10 0
+
+getstr 
+: st 10 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 10 set to 0
+
+puts: st 11 0
+
+getstr 
+: st 11 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 11 set to 0
+
+puts: st 12 0
+
+getstr 
+: st 12 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 12 set to 0
+
+puts: st 13 0
+
+getstr 
+: st 13 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 13 set to 0
+
+puts: st 14 0
+
+getstr 
+: st 14 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 14 set to 0
+
+puts: st 15 0
+
+getstr 
+: st 15 0
+
+getstr 
+: 
+
+getstr 
+: threshold channel 15 set to 0
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: el 0: 0 Hz
+
+puts: ra 1
+
+getstr 
+: ra 1
+
+getstr 
+: 
+
+getstr 
+: ate channel 1: 0 Hz
+
+puts: ra 2
+
+getstr 
+: ra 2
+
+getstr 
+: 
+
+getstr 
+: ate channel 2: 0 Hz
+
+puts: ra 3
+
+getstr 
+: ra 3
+
+getstr 
+: 
+
+getstr 
+: nel 3: 0 Hz
+
+puts: ra 4
+
+getstr 
+: ra 4
+
+getstr 
+: 
+
+getstr 
+:  Hz
+
+puts: ra 5
+
+getstr 
+: ra 5
+
+getstr 
+: 
+
+getstr 
+:  channel 5: 0 Hz
+
+puts: ra 6
+
+getstr 
+: ra 6
+
+getstr 
+: 
+
+getstr 
+: 0 Hz
+
+puts: ra 7
+
+getstr 
+: ra 7
+
+getstr 
+: 
+
+getstr 
+:  7: 0 Hz
+
+puts: ra 8
+
+getstr 
+: ra 8
+
+getstr 
+: 
+
+getstr 
+: channel 8: 0 Hz
+
+puts: ra 9
+
+getstr 
+: ra 9
+
+getstr 
+: 
+
+getstr 
+: nnel 9: 0 Hz
+
+puts: ra 10
+
+getstr 
+: ra 10
+
+getstr 
+: 
+
+getstr 
+: l 10: 0 Hz
+
+puts: ra 11
+
+getstr 
+: ra 11
+
+getstr 
+: 
+
+getstr 
+: ate channel 11: 0 Hz
+
+puts: ra 12
+
+getstr 
+: ra 12
+
+getstr 
+: 
+
+getstr 
+: ate channel 12: 0 Hz
+
+puts: ra 13
+
+getstr 
+: ra 13
+
+getstr 
+: 
+
+getstr 
+: ate channel 13: 0 Hz
+
+puts: ra 14
+
+getstr 
+: ra 14
+
+getstr 
+: 
+
+getstr 
+: : 0 Hz
+
+puts: ra 15
+
+getstr 
+: ra 15
+
+getstr 
+: 
+
+getstr 
+: e channel 15: 0 Hz
+
+puts: ra 16
+
+getstr 
+: ra 16
+
+getstr 
+: 
+
+getstr 
+: trigger rate0: 0 Hz
+
+puts: ra 17
+
+getstr 
+: ra 17
+
+getstr 
+: 
+
+getstr 
+: rigger rate1: 0 Hz
+
+puts: ra 18
+
+getstr 
+: ra 18
+
+getstr 
+: 
+
+getstr 
+: rigger rate2: 0 Hz
+
+puts: ra 19
+
+getstr 
+: ra 19
+
+getstr 
+: 
+
+getstr 
+: 
+
+puts: ra 0
+
+getstr 
+: ra 0
+
+getstr 
+: 
+
+getstr 
+: nel 0: 0 Hz
+
